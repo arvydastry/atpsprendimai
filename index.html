@@ -1,0 +1,990 @@
+<!doctype html>
+<html lang="lt">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>ATP Sprendimai · Nestandartiniai metalo gaminiai</title>
+<meta name="description" content="Nestandartiniai metalo gaminiai iš juodo ir nerūdijančio plieno: konstrukcijos pramonei, mažoji architektūra, gaminiai statyboms. Gamyba ir montavimas Vilniuje.">
+<!-- DEMO klientui: neindeksuoti. Perkeliant į WordPress šio meta NEPERKELTI. -->
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#14171A">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="image" fetchpriority="high" href="https://images.pexels.com/videos/31806788/lots-of-sparks-during-welding-31806788.jpeg?auto=compress&amp;cs=tinysrgb&amp;fit=crop&amp;h=1080&amp;w=1920">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wdth,wght@0,75..100,400..700;1,75..100,400..700&family=Geist+Mono:wght@400;500&display=swap">
+<style>
+/* ══ ATP SPRENDIMAI · dizaino kryptis „Architect“ ══
+   Vienas failas. Be bibliotekų. Spalvos ir tarpai — iš projekto dizaino sistemos. */
+:root{
+  --plienas:#14171A; --plienas-2:#1E2329; --l0:#F4F5F7; --l1:#FFFFFF; --l2:#E6E9EC;
+  --t1:#111418; --t2:#3A4249; --t3:#5F6971;
+  --zarija:#BF3E14; --zarija-sv:#FF7A45; --grudinta:#1F5A85; --grudinta-sv:#8BC4E6;
+  --sviesa:#F4F5F7; --dumas:#A3ACB4; --siule:#C7CDD3; --briauna:#6F7980; --linija-sv:#2C3136;
+  --ff:'Instrument Sans',system-ui,'Segoe UI',Roboto,Arial,sans-serif;
+  --ff-m:'Geist Mono',ui-monospace,Menlo,Consolas,monospace;
+  --gutter:clamp(16px,4vw,64px); --maxw:1440px;
+  --s3:16px; --s4:24px; --s5:clamp(32px,3vw,48px); --s6:clamp(48px,5vw,80px); --s7:clamp(64px,8vw,128px);
+  --e:cubic-bezier(.2,.9,.1,1); --e-out:cubic-bezier(.33,0,.1,1);
+  --sy:0;
+}
+*{box-sizing:border-box}
+html{overflow-x:clip;scroll-behavior:smooth}
+body{margin:0;background:var(--l0);color:var(--t1);font:400 clamp(1rem,.96rem + .2vw,1.0625rem)/1.6 var(--ff);-webkit-tap-highlight-color:transparent}
+img,video{display:block;max-width:100%}
+a{color:inherit}
+h1,h2,h3,h4{margin:0;font-weight:600;letter-spacing:-.02em;line-height:1.04}
+p{margin:0}
+ul{margin:0;padding:0;list-style:none}
+:focus-visible{outline:2px solid var(--grudinta);outline-offset:3px}
+.k{max-width:var(--maxw);margin-inline:auto;padding-inline:var(--gutter)}
+.mono{font:500 .6875rem/1.2 var(--ff-m);letter-spacing:.12em;text-transform:uppercase}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.sekcija{padding-block:var(--s7)}
+.tamsu{background:var(--plienas);color:var(--sviesa)}
+.tamsu .mono{color:var(--dumas)}
+.h-xl{font-size:clamp(2.125rem,.9rem + 5.4vw,7rem);overflow-wrap:break-word}
+.h-l{font-size:clamp(2rem,1.3rem + 2.9vw,4rem)}
+.h-m{font-size:clamp(1.5rem,1.2rem + 1.4vw,2.25rem)}
+.h-s{font-size:clamp(1.125rem,1.05rem + .5vw,1.5rem)}
+.lead{font-size:clamp(1.0625rem,1rem + .45vw,1.3125rem);color:var(--t2);max-width:62ch}
+.tamsu .lead{color:var(--dumas)}
+.mazas{font-size:.9375rem;color:var(--t2)}
+
+/* ── Nuorodos su lazerio linija ── */
+.cta{position:relative;display:inline-flex;align-items:center;gap:10px;padding-block:6px;font-weight:500;text-decoration:none;white-space:nowrap}
+.cta::after{content:"";position:absolute;left:0;right:0;bottom:0;height:1px;background:currentColor;transform-origin:left;transition:transform 260ms var(--e-out),background-color 260ms var(--e-out)}
+.cta:hover::after,.cta:focus-visible::after{background:var(--zarija);transform:scaleY(2)}
+.tamsu .cta:hover::after{background:var(--zarija-sv)}
+.cta span{transition:transform 260ms var(--e)}
+.cta:hover span{transform:translateX(4px)}
+.mygtukas{display:inline-flex;align-items:center;justify-content:center;min-height:52px;padding:0 26px;background:var(--plienas);color:var(--sviesa);font:500 .75rem/1 var(--ff);letter-spacing:.12em;text-transform:uppercase;text-decoration:none;border:1px solid var(--plienas);cursor:pointer;transition:background-color 180ms var(--e),color 180ms var(--e)}
+.mygtukas:hover{background:var(--zarija);border-color:var(--zarija)}
+.mygtukas--karstas{background:var(--zarija);border-color:var(--zarija)}
+.mygtukas--karstas:hover{background:#A83309;border-color:#A83309}
+.mygtukas--kontūras{background:transparent;color:inherit;border-color:currentColor}
+.mygtukas--kontūras:hover{background:var(--sviesa);color:var(--plienas);border-color:var(--sviesa)}
+
+/* ── Viršutinė juosta ── */
+.virsus{position:fixed;inset:0 0 auto 0;z-index:100;transition:background-color 260ms var(--e-out),border-color 260ms var(--e-out);border-bottom:1px solid transparent}
+.virsus.slinkta{background:rgba(20,23,26,.94);border-bottom-color:var(--linija-sv)}
+.virsus .k{display:flex;align-items:center;justify-content:space-between;gap:var(--s4);height:76px;color:var(--sviesa)}
+.zenklas{display:flex;align-items:center;gap:10px;text-decoration:none;color:inherit}
+.zenklas svg{width:76px;height:22px}
+.zenklas b{font:600 10px/1 var(--ff);letter-spacing:.2em;text-transform:uppercase}
+.meniu{display:flex;align-items:center;gap:clamp(14px,1.8vw,30px)}
+.meniu a{font:500 .75rem/1 var(--ff);letter-spacing:.1em;text-transform:uppercase;text-decoration:none;opacity:.86}
+.meniu a:hover{opacity:1}
+.tel{display:inline-flex;align-items:center;gap:8px;padding:9px 16px;border:1px solid rgba(244,245,247,.4);border-radius:999px;font:500 .75rem/1 var(--ff-m);letter-spacing:.06em;text-decoration:none}
+.tel:hover{border-color:var(--zarija-sv);color:var(--zarija-sv)}
+@media (max-width:980px){.meniu a{display:none}}
+
+/* ── Hero ── */
+.hero{position:relative;min-height:100svh;display:flex;align-items:flex-end;overflow:hidden;background:var(--plienas);color:var(--sviesa)}
+.hero video,.hero img.fonas{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transform:translate3d(0,calc(var(--sy) * .06px),0) scale(1.06)}
+.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(20,23,26,.72) 0%,rgba(20,23,26,.44) 40%,rgba(20,23,26,.88) 100%)}
+.hero .k{position:relative;z-index:2;width:100%;padding-block:var(--s7) var(--s6)}
+.hero h1{margin:.28em 0 .34em;max-width:16ch;text-wrap:balance}
+.hero .lead{max-width:48ch;color:rgba(244,245,247,.9)}
+.hero__cta{display:flex;flex-wrap:wrap;gap:var(--s3) var(--s5);align-items:center;margin-top:var(--s5)}
+.hero__juosta{margin-top:var(--s6);padding-top:var(--s3);border-top:1px solid var(--linija-sv);display:flex;flex-wrap:wrap;gap:8px 26px;color:var(--dumas)}
+.hero__juosta a{text-decoration:none}
+.hero__juosta a:hover{color:var(--zarija-sv)}
+
+/* ── Faktų juosta ── */
+.faktai{background:var(--plienas-2);color:var(--sviesa)}
+.faktai .k{display:grid;grid-template-columns:repeat(3,1fr);gap:var(--s5);padding-block:var(--s6)}
+.faktai h3{margin-bottom:8px}
+.faktai p{color:var(--dumas);font-size:.9375rem;max-width:34ch}
+@media (max-width:820px){.faktai .k{grid-template-columns:1fr;gap:var(--s4)}}
+
+/* ── Sekcijos antraštė ── */
+.antraste{display:flex;flex-wrap:wrap;align-items:end;justify-content:space-between;gap:var(--s4);margin-bottom:var(--s6)}
+.antraste .mono{color:var(--zarija);margin-bottom:14px;display:block}
+.tamsu .antraste .mono{color:var(--zarija-sv)}
+
+/* ── Paslaugos ── */
+.paslauga{display:grid;grid-template-columns:1fr 1fr;gap:clamp(24px,4vw,72px);align-items:center;padding-block:var(--s6)}
+.paslauga + .paslauga{border-top:1px solid var(--siule)}
+.paslauga:nth-child(even) .paslauga__media{order:2}
+.paslauga__media{position:relative;aspect-ratio:4/3;overflow:hidden;background:var(--l2)}
+.paslauga__media img{width:100%;height:100%;object-fit:cover;transition:clip-path 900ms var(--e)}
+.paslauga.pries .paslauga__media img{clip-path:inset(0 0 0 100%)}
+.paslauga__nr{position:absolute;left:0;top:0;z-index:2;padding:10px 14px;background:var(--plienas);color:var(--sviesa)}
+.paslauga h3{margin:12px 0 14px}
+.paslauga ul{margin:var(--s4) 0;display:grid;gap:12px}
+.paslauga li{padding-left:22px;position:relative;font-size:.9375rem;color:var(--t2)}
+.paslauga li::before{content:"";position:absolute;left:0;top:.62em;width:12px;height:1px;background:var(--zarija)}
+.paslauga li b{color:var(--t1);font-weight:600}
+@media (max-width:900px){.paslauga{grid-template-columns:1fr}.paslauga:nth-child(even) .paslauga__media{order:0}}
+
+/* ── Procesas ── */
+.etapai{display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(20px,2.5vw,40px)}
+.etapas{padding:var(--s5);background:var(--plienas-2);border:1px solid var(--linija-sv);position:relative;overflow:hidden}
+.etapas__nr{font:600 clamp(2.5rem,4vw,4rem)/1 var(--ff);letter-spacing:-.04em;color:var(--linija-sv);position:absolute;right:16px;top:8px}
+.etapas h3{margin:var(--s4) 0 12px;position:relative}
+.etapas p{color:var(--dumas);font-size:.9375rem}
+.etapas .klientas{margin-top:var(--s4);padding-top:var(--s3);border-top:1px solid var(--linija-sv);color:var(--sviesa);font-size:.875rem}
+.etapas .klientas b{display:block;margin-bottom:6px;font-size:.6875rem;letter-spacing:.12em;text-transform:uppercase;color:var(--zarija-sv);font-family:var(--ff-m)}
+@media (max-width:900px){.etapai{grid-template-columns:1fr}}
+
+/* ── Projektai ── */
+.projektai{display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(16px,2vw,28px)}
+.projektas{position:relative;display:block;text-decoration:none;background:var(--l1);border:1px solid var(--siule)}
+.projektas__media{aspect-ratio:4/3;overflow:hidden;background:var(--l2)}
+.projektas__media img{width:100%;height:100%;object-fit:cover;clip-path:inset(5%);filter:grayscale(.35);transition:clip-path 420ms var(--e),filter 420ms var(--e)}
+.projektas:hover .projektas__media img,.projektas:focus-visible .projektas__media img{clip-path:inset(0);filter:grayscale(0)}
+.projektas__tekstas{padding:var(--s4)}
+.projektas__tekstas .mono{color:var(--t3)}
+.projektas h3{margin:10px 0 8px;font-size:1.125rem}
+.projektas p{font-size:.875rem;color:var(--t2)}
+@media (max-width:1000px){.projektai{grid-template-columns:repeat(2,1fr)}}
+@media (max-width:620px){.projektai{grid-template-columns:1fr}}
+
+/* ── Teiginys ── */
+.teiginys{position:relative;overflow:hidden}
+.teiginys .k{position:relative;z-index:2;display:grid;gap:var(--s5);padding-block:var(--s7)}
+.teiginys__linija{height:2px;background:linear-gradient(90deg,#C9A227 0 6%,#8A4A1E 6% 30%,#4A2B5C 30% 56%,#1F3F5E 56% 80%,var(--linija-sv) 80% 100%);transform-origin:left;transform:scaleX(var(--tp,1));transition:transform 1400ms var(--e-out)}
+.teiginys h2{max-width:18ch}
+.teiginys .pilnas{color:var(--dumas);max-width:56ch}
+
+/* ── Kodėl ── */
+.kodel{display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(24px,3vw,56px)}
+.kodel h3{margin:var(--s3) 0 10px}
+.kodel p{color:var(--t2);font-size:.9375rem}
+.kodel .nr{font-family:var(--ff-m);color:var(--zarija);font-size:.75rem;letter-spacing:.14em}
+@media (max-width:900px){.kodel{grid-template-columns:1fr}}
+
+/* ── Forma ── */
+.forma-blokas{display:grid;grid-template-columns:5fr 7fr;gap:clamp(32px,4vw,80px);align-items:start}
+@media (max-width:980px){.forma-blokas{grid-template-columns:1fr}}
+.forma{background:var(--l1);border:1px solid var(--siule);padding:clamp(20px,3vw,40px)}
+.eile{display:grid;grid-template-columns:1fr 1fr;gap:var(--s3)}
+@media (max-width:600px){.eile{grid-template-columns:1fr}}
+.laukas{display:flex;flex-direction:column;gap:6px;margin-bottom:var(--s3)}
+.laukas label{font-size:.8125rem;font-weight:600}
+.laukas .pagalba{font:400 .75rem/1.4 var(--ff-m);color:var(--t3)}
+.laukas input,.laukas select,.laukas textarea{font:400 1rem/1.4 var(--ff);color:var(--t1);background:var(--l1);border:1px solid var(--briauna);border-radius:2px;padding:13px 14px;min-height:48px}
+.laukas textarea{min-height:130px;resize:vertical}
+.laukas input:focus,.laukas select:focus,.laukas textarea:focus{outline:2px solid var(--grudinta);outline-offset:2px;border-color:var(--grudinta)}
+.laukas.klaida input,.laukas.klaida select,.laukas.klaida textarea{border-color:#B3261E}
+.laukas .pranesimas{color:#B3261E;font-size:.8125rem;display:none}
+.laukas.klaida .pranesimas{display:block}
+.zvaigzde{color:var(--zarija)}
+.failas{border:1px dashed var(--briauna);padding:var(--s4);text-align:center;color:var(--t2);font-size:.875rem;transition:border-color 180ms var(--e),background-color 180ms var(--e)}
+.failas.virs{border-color:var(--zarija);background:rgba(191,62,20,.05)}
+.failas input{display:block;margin:10px auto 0;font-size:.8125rem}
+.sutikimas{display:flex;gap:10px;align-items:flex-start;font-size:.8125rem;color:var(--t2);margin:var(--s4) 0}
+.sutikimas input{margin-top:3px;width:18px;height:18px;accent-color:var(--zarija)}
+.forma__apacia{display:flex;flex-wrap:wrap;gap:var(--s3);align-items:center;justify-content:space-between}
+.sekme{display:none;padding:var(--s5);background:var(--l2);border-left:3px solid #1E7A4C}
+.sekme h3{margin-bottom:10px}
+.forma.issiusta .forma__vidus{display:none}
+.forma.issiusta .sekme{display:block}
+
+/* ── Kontaktai ir rekvizitai ── */
+.kontaktai{display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(24px,3vw,56px);align-items:start}
+@media (max-width:900px){.kontaktai{grid-template-columns:1fr}}
+.kontaktai h3{margin-bottom:var(--s3)}
+.kontaktai .didelis{font-size:clamp(1.25rem,1.1rem + .8vw,1.75rem);font-weight:600;text-decoration:none;display:block;margin-bottom:8px}
+.kontaktai .didelis:hover{color:var(--zarija)}
+.rekvizitai{width:100%;border-collapse:collapse;font-size:.875rem}
+.rekvizitai th,.rekvizitai td{text-align:left;padding:10px 0;border-bottom:1px solid var(--siule);vertical-align:top}
+.rekvizitai th{font:500 .75rem/1.4 var(--ff-m);letter-spacing:.06em;color:var(--t3);font-weight:500;width:46%}
+.planas{border:1px solid var(--siule);background:var(--l1);padding:var(--s4)}
+.planas svg{width:100%;height:auto}
+
+/* ── Footeris ── */
+.footeris{background:var(--plienas);color:var(--sviesa);padding-block:var(--s6)}
+.footeris .k{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:var(--s5)}
+.footeris h4{margin-bottom:14px;font:500 .6875rem/1.2 var(--ff-m);letter-spacing:.12em;text-transform:uppercase;color:var(--dumas)}
+.footeris a{text-decoration:none;color:var(--sviesa)}
+.footeris li{margin-bottom:8px;font-size:.9375rem;color:var(--dumas)}
+.footeris li a:hover{color:var(--zarija-sv)}
+.footeris__apacia{margin-top:var(--s6);padding-top:var(--s3);border-top:1px solid var(--linija-sv);display:flex;flex-wrap:wrap;gap:10px 26px;color:var(--dumas)}
+@media (max-width:820px){.footeris .k{grid-template-columns:1fr}}
+
+/* ── Atsiradimas slenkant (clip-path, ne fade) ── */
+.rodyk{transition:clip-path 700ms var(--e),transform 700ms var(--e)}
+.rodyk.pries{clip-path:inset(0 0 100% 0);transform:translate3d(0,14px,0)}
+
+
+/* ── Video juosta ── */
+.video-juosta{position:relative;min-height:min(72svh,700px);display:flex;align-items:flex-end;overflow:hidden;background:var(--plienas);color:var(--sviesa)}
+.video-juosta video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.video-juosta::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(20,23,26,.3) 0%,rgba(20,23,26,.86) 100%)}
+.video-juosta .k{position:relative;z-index:2;width:100%;padding-block:var(--s7)}
+.video-juosta h2{max-width:16ch;margin:14px 0 16px}
+.video-juosta .lead{color:rgba(244,245,247,.9)}
+.video-juosta .mono{color:var(--zarija-sv)}
+
+/* ── Brėžinio stalo tinklelis ── */
+.stalas{background-image:linear-gradient(var(--siule) 1px,transparent 1px),linear-gradient(90deg,var(--siule) 1px,transparent 1px);background-size:64px 64px;background-position:center}
+
+/* ── Medžiagos ── */
+.medziagos{display:grid;grid-template-columns:1fr 1fr;gap:clamp(20px,2.5vw,40px)}
+.medziaga{background:var(--l1);border:1px solid var(--siule)}
+.medziaga__media{aspect-ratio:16/9;overflow:hidden;background:var(--l2)}
+.medziaga__media img{width:100%;height:100%;object-fit:cover}
+.medziaga__t{padding:var(--s4)}
+.medziaga__t h3{margin:8px 0 10px}
+.medziaga__t .mono{color:var(--zarija)}
+.palyginimas-wrap{overflow-x:auto;margin-top:var(--s5);border:1px solid var(--siule);background:var(--l1)}
+.palyginimas{width:100%;min-width:620px;border-collapse:collapse}
+.palyginimas th,.palyginimas td{text-align:left;padding:14px 16px;border-bottom:1px solid var(--siule);font-size:.9375rem;vertical-align:top;color:var(--t2)}
+.palyginimas thead th{font:500 .6875rem/1.2 var(--ff-m);letter-spacing:.12em;text-transform:uppercase;color:var(--t3);background:var(--l2)}
+.palyginimas tbody th{width:20%;font-weight:600;color:var(--t1)}
+@media (max-width:820px){.medziagos{grid-template-columns:1fr}}
+
+/* ── Gamybos pajėgumai ── */
+.specai{display:grid;grid-template-columns:7fr 5fr;gap:clamp(24px,3vw,56px);align-items:start}
+.specai p + p{margin-top:var(--s3)}
+.lapas{margin-top:var(--s5);background:var(--l1);border:1px solid var(--siule);padding:clamp(18px,2.2vw,32px)}
+.lapas .mono{color:var(--zarija);display:block;margin-bottom:var(--s4)}
+.lapas ul{display:grid;gap:0}
+.lapas li{display:flex;flex-wrap:wrap;gap:4px 14px;font-size:.9375rem;color:var(--t2);padding:12px 0;border-bottom:1px solid var(--siule)}
+.lapas li b{color:var(--t1);min-width:14ch}
+.lapas li:last-child{border-bottom:0}
+.stampas{margin-top:var(--s4);padding-top:12px;border-top:1px solid var(--briauna);font:500 .6875rem/1.4 var(--ff-m);letter-spacing:.1em;text-transform:uppercase;color:var(--t3);display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.apie-foto{display:grid;gap:var(--s3)}
+.apie-foto img{width:100%;aspect-ratio:4/3;object-fit:cover}
+@media (max-width:900px){.specai{grid-template-columns:1fr}}
+
+/* ── Atsiliepimai ── */
+.atsiliepimai{display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(20px,2.5vw,36px)}
+.atsiliepimas{margin:0;background:var(--l1);border:1px solid var(--siule);padding:var(--s5);display:flex;flex-direction:column;gap:var(--s4)}
+.atsiliepimas blockquote{margin:0;font-size:1.0625rem;line-height:1.55}
+.atsiliepimas figcaption{display:flex;align-items:center;gap:14px;margin-top:auto}
+.atsiliepimas img{width:56px;height:56px;object-fit:cover;flex:none}
+.atsiliepimas .kas{font-weight:600;font-size:.9375rem}
+.atsiliepimas .mono{color:var(--t3);margin-top:4px}
+@media (max-width:900px){.atsiliepimai{grid-template-columns:1fr}}
+
+/* ── DUK ── */
+.duk{border-top:1px solid var(--siule)}
+.duk details{border-bottom:1px solid var(--siule)}
+.duk summary{cursor:pointer;list-style:none;padding:20px 0;display:flex;gap:16px;align-items:baseline;font-weight:600;font-size:clamp(1rem,.95rem + .35vw,1.25rem)}
+.duk summary::-webkit-details-marker{display:none}
+.duk summary .nr{font:500 .6875rem/1.2 var(--ff-m);color:var(--t3);letter-spacing:.12em;flex:none}
+.duk summary .zenkl{margin-left:auto;color:var(--zarija);font-family:var(--ff-m);flex:none;display:inline-block;transition:transform 180ms var(--e)}
+.duk details[open] summary .zenkl{color:var(--t3);transform:rotate(45deg)}
+.duk .ats{padding:0 0 22px 46px;color:var(--t2);max-width:78ch}
+@media (max-width:600px){.duk .ats{padding-left:0}}
+
+/* ── Prototipo žymos ── */
+.zyma{margin-top:var(--s4);font:400 .75rem/1.5 var(--ff-m);color:var(--t3)}
+.tamsu .zyma{color:var(--dumas)}
+
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{transition:none!important;animation:none!important}
+  .rodyk,.rodyk.pries{clip-path:none;transform:none}
+  .paslauga__media img,.projektas__media img{clip-path:none;filter:none}
+  .hero video,.hero img.fonas{transform:none}
+  .teiginys__linija{transform:scaleX(1)}
+}
+</style>
+</head>
+<body>
+<a class="sr" href="#turinys">Praleisti į turinį</a>
+
+<header class="virsus" id="virsus">
+  <div class="k">
+    <a class="zenklas" href="#" aria-label="ATP Sprendimai, į puslapio viršų">
+      <svg viewBox="0 0 96 28" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="square" aria-hidden="true"><path d="M2 26 L14 2 L26 26"/><path d="M8 17 H20"/><path d="M32 3 H58"/><path d="M45 3 V26"/><path d="M39 26 H51"/><path d="M66 26 V2 H80 A7 7 0 0 1 80 16 H66"/></svg>
+      <b>Sprendimai</b>
+    </a>
+    <nav class="meniu" aria-label="Pagrindinis meniu">
+      <a href="#paslaugos">Paslaugos</a>
+      <a href="#procesas">Kaip dirbame</a>
+      <a href="#medziagos">Medžiagos</a>
+      <a href="#projektai">Projektai</a>
+      <a href="#apie">Apie mus</a>
+      <a href="#uzsakymas">Užsakymas</a>
+      <a class="tel" href="tel:+37060808909">+370 608 08909</a>
+    </nav>
+  </div>
+</header>
+
+<main id="turinys">
+
+  <section class="hero" aria-labelledby="hero-h">
+    <video id="hero-video" autoplay muted loop playsinline preload="metadata"
+      poster="https://images.pexels.com/videos/31806788/lots-of-sparks-during-welding-31806788.jpeg?auto=compress&amp;cs=tinysrgb&amp;fit=crop&amp;h=1080&amp;w=1920"
+      aria-label="Suvirinimo darbai metalo gamybos ceche">
+      <source src="https://videos.pexels.com/video-files/31806788/13550779_1920_1080_25fps.mp4" type="video/mp4">
+    </video>
+    <div class="k">
+      <p class="mono">Metalo gamyba · Vilnius</p>
+      <h1 class="h-xl" id="hero-h">Plienas pagal Jūsų brėžinį.</h1>
+      <p class="lead">Gaminame konstrukcijas pramonei, mažosios architektūros elementus ir gaminius statyboms iš juodo ir nerūdijančio plieno — pagal Jūsų brėžinius, su montavimu objekte.</p>
+      <div class="hero__cta">
+        <a class="mygtukas mygtukas--karstas" href="#uzsakymas">Pateikti užklausą</a>
+        <a class="cta" href="#paslaugos">Mūsų paslaugos <span aria-hidden="true">→</span></a>
+      </div>
+      <p class="hero__juosta mono">
+        <span>Titnago g. 19, Vilnius</span>
+        <a href="tel:+37060808909">+370 608 08909</a>
+        <a href="mailto:info@atpsprendimai.lt">info@atpsprendimai.lt</a>
+      </p>
+    </div>
+  </section>
+
+  <section class="faktai" aria-label="Kuo dirbame">
+    <div class="k">
+      <div class="rodyk">
+        <p class="mono">01</p>
+        <h3 class="h-s">Juodas ir nerūdijantis plienas</h3>
+        <p>Pjauname, lankstome, suvirinam ir apdorojame paviršių: milteliniai dažai, karštas cinkavimas, šlifavimas.</p>
+      </div>
+      <div class="rodyk">
+        <p class="mono">02</p>
+        <h3 class="h-s">Gamyba ir montavimas</h3>
+        <p>Ta pati komanda pagamina ceche ir sumontuoja objekte. Už matmenis, apdailą ir terminą atsakome vienoje vietoje.</p>
+      </div>
+      <div class="rodyk">
+        <p class="mono">03</p>
+        <h3 class="h-s">Užsakymus įvykdom laiku</h3>
+        <p>Gamybos terminą įrašome į pasiūlymą, o apie eigą informuojame iki pat perdavimo.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="sekcija" id="paslaugos" aria-labelledby="paslaugos-h">
+    <div class="k">
+      <div class="antraste">
+        <div>
+          <span class="mono">Paslaugos</span>
+          <h2 class="h-l" id="paslaugos-h">Trys kryptys — viena gamyba</h2>
+        </div>
+        <p class="lead">Šioje skiltyje rasite trumpą informaciją apie mūsų gaminamą produkciją.</p>
+      </div>
+
+      <article class="paslauga rodyk">
+        <div class="paslauga__media">
+          <span class="paslauga__nr mono">01 · Pramonei</span>
+          <img src="https://images.pexels.com/photos/26796714/pexels-photo-26796714.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200" alt="Cinkuotų grotelių aikštelė su turėklais pramoniniame pastate" loading="lazy">
+        </div>
+        <div>
+          <h3 class="h-m">Konstrukcijos įrangai — pagal Jūsų brėžinius</h3>
+          <p class="lead">Konstrukcijos agregatų ir įrangos montavimui pagal Jūsų pateiktus brėžinius. Gaminame iš juodo arba nerūdijančio plieno, cinkuojame* ar dažome ir sumontuojame objekte.</p>
+          <ul>
+            <li><b>Rėmai ir atramos įrangai</b> — transporterių, siurblių, ventiliatorių ir staklių rėmai su tvirtinimo taškais pagal įrangos pasą.</li>
+            <li><b>Aptarnavimo aikštelės ir laiptai</b> — perėjimai, pakylos ir laiptai prie įrangos, rezervuarų ir vamzdynų.</li>
+            <li><b>Evakuacinės ir techninės kopėčios</b> — vertikalios kopėčios su apsauginiais lankais ir aikštelėmis.</li>
+            <li><b>Apsauginiai atitvarai</b> — sandėlių pravažiavimams, stelažų galams ir įrangos zonoms.</li>
+            <li><b>Vamzdynų ir kabelių atramos</b> — estakados, konsolės ir laikikliai pagal trasų projektą.</li>
+            <li><b>Nestandartinės konstrukcijos</b> — viskas, kas nubraižyta brėžinyje ir telpa į mūsų cechą.</li>
+          </ul>
+          <a class="cta" href="#uzsakymas">Užklausti pasiūlymo <span aria-hidden="true">→</span></a>
+        </div>
+      </article>
+
+      <article class="paslauga rodyk">
+        <div class="paslauga__media">
+          <span class="paslauga__nr mono">02 · Mažoji architektūra</span>
+          <img src="https://images.pexels.com/photos/23940459/pexels-photo-23940459.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200" alt="Nerūdijančio plieno turėklas dangaus fone" loading="lazy">
+        </div>
+        <div>
+          <h3 class="h-m">Tvoros, turėklai, vartai — Jūsų sklypui</h3>
+          <p class="lead">Tvoros, turėklai, vartai ir varteliai, balkonai, šiltnamiai, stogeliai, terasos ir visa kita, ko Jums gali prireikti. Išmatuojame objekte*, pagaminame ir sumontuojame.</p>
+          <ul>
+            <li><b>Turėklai</b> — laiptams, terasoms, balkonams ir pandusams; nerūdijantis arba dažytas plienas.</li>
+            <li><b>Tvoros ir vartai</b> — segmentai iš profilių, stumdomi ir varstomi vartai, varteliai su automatikos paruošimu.</li>
+            <li><b>Stogeliai</b> — virš įėjimų, terasų ir laiptų, su polikarbonato, stiklo ar skardos danga.</li>
+            <li><b>Balkonai ir terasos</b> — plieniniai balkonų karkasai, terasų konstrukcijos ir laiptai.</li>
+            <li><b>Šiltnamiai ir pavėsinės</b> — plieniniai karkasai pagal Jūsų matmenis, paruošti dangai.</li>
+            <li><b>Individualūs elementai</b> — laiptai, laikikliai, dekoratyvinės pertvaros pagal eskizą.</li>
+          </ul>
+          <a class="cta" href="#uzsakymas">Užklausti pasiūlymo <span aria-hidden="true">→</span></a>
+        </div>
+      </article>
+
+      <article class="paslauga rodyk">
+        <div class="paslauga__media">
+          <span class="paslauga__nr mono">03 · Statyboms</span>
+          <img src="https://images.pexels.com/photos/37733179/pexels-photo-37733179.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200" alt="Darbininkai prie pamatų armatūros tinklo statybvietėje" loading="lazy">
+        </div>
+        <div>
+          <h3 class="h-m">Armatūra ir konstrukcijos statybai</h3>
+          <p class="lead">Armatūros karkasai ir lankstiniai, rostverkai, poliai, rygeliai, sijos, kolonos, santvaros, įdėtinės detalės ir kiti metalo gaminiai statybai. Gaminame pagal konstrukcinį projektą ir pristatome į objektą sutartu laiku.</p>
+          <ul>
+            <li><b>Armatūros karkasai</b> — rostverkams, poliams, rygeliams, kolonoms; surišti ir sužymėti pagal ašis.</li>
+            <li><b>Armatūros lankstiniai</b> — apkabos, L, U, Z lankstiniai ir tiesūs strypai pagal specifikaciją.</li>
+            <li><b>Sijos ir kolonos</b> — suvirintos dvitėjinės ir dėžinės sijos, kolonos, rygeliai su jungčių plokštelėmis.</li>
+            <li><b>Santvaros</b> — stogo santvaros ir ryšiai sandėliams, gamybos pastatams ir stoginėms.</li>
+            <li><b>Įdėtinės detalės</b> — plokštelės su ankeriais, betonuojamos į pamatus, kolonas ir perdangas.</li>
+            <li><b>Kiti metalo gaminiai statybai</b> — laiptai, atramos, karkasai pagal projektą.</li>
+          </ul>
+          <a class="cta" href="#uzsakymas">Užklausti pasiūlymo <span aria-hidden="true">→</span></a>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section class="video-juosta" aria-labelledby="brez-h">
+    <video autoplay muted loop playsinline preload="none"
+      poster="https://images.pexels.com/videos/31016918/2025-istanbul-31016918.jpeg?auto=compress&amp;cs=tinysrgb&amp;fit=crop&amp;h=1080&amp;w=1920"
+      aria-label="Meistras ceche prie plieninio rėmo">
+      <source src="https://videos.pexels.com/video-files/31016918/13258041_1920_1080_30fps.mp4" type="video/mp4">
+    </video>
+    <div class="k">
+      <p class="mono">Gamyba pagal dokumentaciją</p>
+      <h2 class="h-l" id="brez-h">Pagal Jūsų brėžinius</h2>
+      <p class="lead">Atsiųskite brėžinį arba eskizą — įvertinsime gamybos galimybes, medžiagą ir terminą. Gaminame konstrukcijas agregatų ir įrangos montavimui, rėmus, aptarnavimo aikšteles ir kopėčias pramoniniams pastatams.</p>
+      <p style="margin-top:var(--s5)"><a class="cta" href="#uzsakymas">Atsiųsti brėžinį <span aria-hidden="true">&#8594;</span></a></p>
+    </div>
+  </section>
+
+  <section class="sekcija tamsu" id="procesas" aria-labelledby="procesas-h">
+    <div class="k">
+      <div class="antraste">
+        <div>
+          <span class="mono">Kaip dirbame</span>
+          <h2 class="h-l" id="procesas-h">Nuo brėžinio iki sumontuoto gaminio</h2>
+        </div>
+        <p class="lead">Trys etapai — nuo dokumentacijos iki sumontuoto gaminio objekte.</p>
+      </div>
+      <div class="etapai">
+        <article class="etapas rodyk">
+          <span class="etapas__nr" aria-hidden="true">01</span>
+          <p class="mono">Brėžinys</p>
+          <h3 class="h-s">Įvertinimas ir pasiūlymas</h3>
+          <p>Peržiūrime Jūsų brėžinį arba eskizą, patiksliname matmenis, medžiagą ir apdailą. Pateikiame pasiūlymą su kaina ir gamybos terminu.</p>
+          <p class="klientas"><b>Ką pateikia klientas</b>Brėžinį PDF, DWG ar DXF formatu arba eskizą su matmenimis, kiekį, pageidaujamą medžiagą ir apdailą, objekto adresą.</p>
+        </article>
+        <article class="etapas rodyk">
+          <span class="etapas__nr" aria-hidden="true">02</span>
+          <p class="mono">Gamyba</p>
+          <h3 class="h-s">Pjovimas, lankstymas, suvirinimas</h3>
+          <p>Gaminį pjauname, lankstome, suvirinam ir apdorojame mūsų ceche Vilniuje. Prieš išsiuntimą matmenis patikriname pagal brėžinį.</p>
+          <p class="klientas"><b>Ką pateikia klientas</b>Patvirtintą pasiūlymą, atsakymus į gamybos klausimus dėl spalvos ir tvirtinimo vietų, avansą, jei numatytas sutartyje.</p>
+        </article>
+        <article class="etapas rodyk">
+          <span class="etapas__nr" aria-hidden="true">03</span>
+          <p class="mono">Montavimas</p>
+          <h3 class="h-s">Pristatymas ir montavimas</h3>
+          <p>Pristatome gaminį į objektą ir sumontuojame arba perduodame Jūsų montuotojams kartu su montavimo schema.</p>
+          <p class="klientas"><b>Ką pateikia klientas</b>Paruoštą pagrindą ar angą, prieigą prie objekto ir atsakingą asmenį objekte.</p>
+        </article>
+      </div>
+      <p class="zyma">Mūsų gaminiai atitinka Jūsų lūkesčius, o užsakymus įvykdom laiku.</p>
+    </div>
+  </section>
+
+  <section class="sekcija stalas" id="medziagos" aria-labelledby="medziagos-h">
+    <div class="k">
+      <div class="antraste">
+        <div>
+          <span class="mono">Medžiagos</span>
+          <h2 class="h-l" id="medziagos-h">Juodas ar nerūdijantis?</h2>
+        </div>
+        <p class="lead">Trumpai apie tai, kada kuri medžiaga tinka. Jei abejojate — patarsime pagal objekto sąlygas.</p>
+      </div>
+      <div class="medziagos">
+        <article class="medziaga rodyk">
+          <div class="medziaga__media"><img src="https://images.pexels.com/photos/12532682/pexels-photo-12532682.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200" alt="Tamsaus juodo plieno paviršius" loading="lazy"></div>
+          <div class="medziaga__t">
+            <p class="mono">01 · Juodas plienas</p>
+            <h3 class="h-s">Konstrukcijoms ir dažytiems gaminiams</h3>
+            <p class="mazas">Pigesnė medžiaga ir paprastesnis apdirbimas. Paviršių saugome karštu cinkavimu arba milteliniais dažais pasirinkta RAL spalva.</p>
+          </div>
+        </article>
+        <article class="medziaga rodyk">
+          <div class="medziaga__media"><img src="https://images.pexels.com/photos/27667828/pexels-photo-27667828.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200" alt="Šlifuoto nerūdijančio plieno paviršius" loading="lazy"></div>
+          <div class="medziaga__t">
+            <p class="mono">02 · Nerūdijantis plienas</p>
+            <h3 class="h-s">Turėklams ir viešosioms erdvėms</h3>
+            <p class="mazas">Atsparus be papildomos dangos. Lauke dažniausiai renkamasi AISI 304, prie druskų ar chemijos — AISI 316.</p>
+          </div>
+        </article>
+      </div>
+      <div class="palyginimas-wrap">
+        <table class="palyginimas">
+          <thead><tr><th scope="col">Kriterijus</th><th scope="col">Juodas plienas</th><th scope="col">Nerūdijantis plienas</th></tr></thead>
+          <tbody>
+            <tr><th scope="row">Atsparumas korozijai</th><td>Pats plienas rūdija — reikalinga apsauga: karštas cinkavimas arba dažymas milteliniu būdu.</td><td>Atsparus be papildomos dangos. Lauke ir drėgnoje aplinkoje — AISI 304, prie druskų ar chemijos — AISI 316.</td></tr>
+            <tr><th scope="row">Kaina</th><td>Pigesnė medžiaga ir paprastesnis apdirbimas.</td><td>Brangesnė medžiaga, sudėtingesnis suvirinimas ir paviršiaus apdaila.</td></tr>
+            <tr><th scope="row">Išvaizda</th><td>Dažomas pasirinkta spalva arba paliekamas cinkuotas paviršius.</td><td>Šlifuotas arba poliruotas metalo paviršius — nereikia dažyti.</td></tr>
+            <tr><th scope="row">Kur tinka</th><td>Laikančiosios konstrukcijos, rėmai, armatūra, cinkuotos tvoros, kopėčios ir aikštelės.</td><td>Turėklai, viešųjų erdvių elementai, fasado detalės, maisto ir chemijos pramonės įranga.</td></tr>
+            <tr><th scope="row">Priežiūra</th><td>Dangą laikui bėgant reikia atnaujinti — ypač pažeistose vietose.</td><td>Pakanka periodiškai nuplauti; perdažyti nereikia.</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="zyma">Medžiagos markę ir dangos storį parenkame pagal objekto sąlygas ir Jūsų brėžinį.</p>
+    </div>
+  </section>
+
+  <section class="sekcija" id="projektai" aria-labelledby="projektai-h">
+    <div class="k">
+      <div class="antraste">
+        <div>
+          <span class="mono">Darbai</span>
+          <h2 class="h-l" id="projektai-h">Įgyvendinti projektai</h2>
+        </div>
+        <p class="lead">Pažiūrėkite mūsų įrengimus ir gaminamus produktus.</p>
+      </div>
+      <div class="projektai">
+        <a class="projektas rodyk" href="#uzsakymas">
+          <div class="projektas__media"><img src="https://images.pexels.com/photos/20171389/pexels-photo-20171389.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=900" alt="Vertikalios kopėčios su apsauginiu lanku ant pramoninio pastato fasado" loading="lazy"></div>
+          <div class="projektas__tekstas">
+            <p class="mono">Pramonei · Vilniaus r. · cinkuota</p>
+            <h3>Evakuacinės kopėčios su apsauginiais lankais</h3>
+            <p>Vertikalios kopėčios su lankais ir aikštele ant pramoninio pastato fasado.</p>
+          </div>
+        </a>
+        <a class="projektas rodyk" href="#uzsakymas">
+          <div class="projektas__media"><img src="https://images.pexels.com/photos/17588186/pexels-photo-17588186.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=900" alt="Nerūdijančio plieno fasado panelės ir turėklo detalė" loading="lazy"></div>
+          <div class="projektas__tekstas">
+            <p class="mono">Mažoji architektūra · Vilnius · nerūdijantis</p>
+            <h3>Turėklai administraciniam pastatui</h3>
+            <p>Laiptų ir terasos turėklai iš šlifuoto nerūdijančio plieno su stiklo užpildu.</p>
+          </div>
+        </a>
+        <a class="projektas rodyk" href="#uzsakymas">
+          <div class="projektas__media"><img src="https://images.pexels.com/photos/37535014/pexels-photo-37535014.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=900" alt="Metaliniai vartai su įstrižų juostų raštu" loading="lazy"></div>
+          <div class="projektas__tekstas">
+            <p class="mono">Mažoji architektūra · Vilniaus r. · dažyta</p>
+            <h3>Stumdomi vartai su varteliais</h3>
+            <p>Stumdomi kiemo vartai su automatikos paruošimu ir tos pačios linijos varteliai.</p>
+          </div>
+        </a>
+        <a class="projektas rodyk" href="#uzsakymas">
+          <div class="projektas__media"><img src="https://images.pexels.com/photos/1530989/pexels-photo-1530989.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=900" alt="Sandėlio stogo santvaros su stoglangiais" loading="lazy"></div>
+          <div class="projektas__tekstas">
+            <p class="mono">Statyboms · Vilnius · dažyta</p>
+            <h3>Santvaros sandėlio stogui</h3>
+            <p>Plieninės stogo santvaros ir ryšiai vieno aukšto sandėliavimo pastatui.</p>
+          </div>
+        </a>
+        <a class="projektas rodyk" href="#uzsakymas">
+          <div class="projektas__media"><img src="https://images.pexels.com/photos/5512096/pexels-photo-5512096.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=900" alt="Šiltnamio plieninis karkasas iš vidaus" loading="lazy"></div>
+          <div class="projektas__tekstas">
+            <p class="mono">Mažoji architektūra · Vilniaus r. · cinkuota</p>
+            <h3>Šiltnamio karkasas privačiam sklypui</h3>
+            <p>Plieninis karkasas pagal užsakovo matmenis, paruoštas polikarbonato dangai.</p>
+          </div>
+        </a>
+        <a class="projektas rodyk" href="#uzsakymas">
+          <div class="projektas__media"><img src="https://images.pexels.com/photos/14924446/pexels-photo-14924446.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=900" alt="Plieniniai laiptai su turėklais ant silo sienos" loading="lazy"></div>
+          <div class="projektas__tekstas">
+            <p class="mono">Pramonei · Vilnius · cinkuota</p>
+            <h3>Aptarnavimo aikštelė prie įrangos</h3>
+            <p>Aikštelė su turėklais ir laiptais įrangos priežiūrai gamybos ceche.</p>
+          </div>
+        </a>
+        <a class="projektas rodyk" href="#uzsakymas">
+          <div class="projektas__media"><img src="https://images.pexels.com/photos/7849743/pexels-photo-7849743.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=900" alt="Suvirintojai ceche prie plieninio rėmo" loading="lazy"></div>
+          <div class="projektas__tekstas">
+            <p class="mono">Pramonei · Vilnius · dažyta</p>
+            <h3>Konvejerio rėmas gamybos cechui</h3>
+            <p>Juostinio transporterio rėmas įrangos montavimui, pagamintas pagal užsakovo brėžinius.</p>
+          </div>
+        </a>
+        <a class="projektas rodyk" href="#uzsakymas">
+          <div class="projektas__media"><img src="https://images.pexels.com/photos/12709141/pexels-photo-12709141.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=900" alt="Armatūros karkasas kolonai statybvietėje" loading="lazy"></div>
+          <div class="projektas__tekstas">
+            <p class="mono">Statyboms · Vilniaus r. · armatūra</p>
+            <h3>Armatūros karkasai pamatams</h3>
+            <p>Rostverko ir kolonų karkasai, sukomplektuoti pagal pamatų brėžinį ir pristatyti į objektą.</p>
+          </div>
+        </a>
+      </div>
+      <p class="zyma">Projektai pavyzdiniai. Tikrų objektų nuotraukas, pavadinimus ir vietas pateikia užsakovas.</p>
+    </div>
+  </section>
+
+  <section class="teiginys tamsu" aria-labelledby="teiginys-h">
+    <div class="k">
+      <div class="teiginys__linija" id="teiginys-linija" aria-hidden="true"></div>
+      <h2 class="h-xl" id="teiginys-h">Užsakymus įvykdom laiku.</h2>
+      <p class="pilnas lead">Mūsų gaminiai atitinka Jūsų lūkesčius, o užsakymus įvykdom laiku. Terminą sutariame prieš gamybą ir jo laikomės.</p>
+      <p><a class="cta" href="#uzsakymas">Užklausti pasiūlymo <span aria-hidden="true">→</span></a></p>
+    </div>
+  </section>
+
+  <section class="sekcija" id="apie" aria-labelledby="apie-h">
+    <div class="k">
+      <div class="antraste">
+        <div>
+          <span class="mono">Apie mus</span>
+          <h2 class="h-l" id="apie-h">Kodėl ATP Sprendimai</h2>
+        </div>
+        <p class="lead">Nestandartiniai metalo gaminiai iš juodo ir nerūdijančio plieno.</p>
+      </div>
+      <div class="kodel">
+        <div class="rodyk">
+          <p class="nr">01</p>
+          <h3 class="h-s">Pagal brėžinį arba pagal vietą</h3>
+          <p>Gaminame pagal Jūsų dokumentaciją arba išmatuojame objekte* ir parengiame gamybos brėžinius patvirtinimui.</p>
+        </div>
+        <div class="rodyk">
+          <p class="nr">02</p>
+          <h3 class="h-s">Gamyba ir montavimas iš vienų rankų</h3>
+          <p>Mūsų komanda sukaupusi ilgametę patirtį gamybos procesuose ir montuojant gaminius. Ta pati komanda gamina ir montuoja, be tarpininkų.</p>
+        </div>
+        <div class="rodyk">
+          <p class="nr">03</p>
+          <h3 class="h-s">Ilgalaikiai santykiai</h3>
+          <p>Mes siekiame sukurti ilgalaikius santykius su savo klientais, gamindami aukščiausios kokybės produktus ir pranokdami jų lūkesčius.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="sekcija" id="gamyba" aria-labelledby="gamyba-h">
+    <div class="k">
+      <div class="antraste">
+        <div>
+          <span class="mono">Gamyba</span>
+          <h2 class="h-l" id="gamyba-h">Cechas Vilniuje, Titnago g. 19</h2>
+        </div>
+        <p class="lead">Kiekvienas užsakymas prasideda nuo brėžinio arba matavimų objekte ir baigiasi sumontuotu gaminiu.</p>
+      </div>
+      <div class="specai">
+        <div class="rodyk">
+          <p>ATP Sprendimai — metalo gamybos įmonė Vilniuje, Titnago g. 19. Gaminame nestandartinius metalo gaminius iš juodo ir nerūdijančio plieno: konstrukcijas pramonei pagal užsakovų brėžinius, mažosios architektūros elementus ir gaminius statyboms.</p>
+          <p>Gamybą ir montavimą atliekame patys, todėl už matmenis, apdailą ir terminą atsakome vienoje vietoje. Mūsų komanda sukaupusi ilgametę patirtį gamybos procesuose ir montuojant gaminius.</p>
+          <p>Mes siekiame sukurti ilgalaikius santykius su savo klientais, gamindami aukščiausios kokybės produktus ir pranokdami jų lūkesčius.</p>
+          <div class="lapas">
+            <span class="mono">Gamybos pajėgumai</span>
+            <ul>
+              <li><b>Pjovimas</b> Profiliai, lakštai ir armatūra — paruošimas pagal brėžinį.</li>
+              <li><b>Lankstymas</b> Lakštų ir armatūros lankstiniai.</li>
+              <li><b>Suvirinimas</b> Juodas ir nerūdijantis plienas.</li>
+              <li><b>Apdaila</b> Dažymas milteliniu būdu, karštas cinkavimas, šlifavimas ir poliravimas. Dalis operacijų — su partneriais*.</li>
+              <li><b>Montavimas</b> Sava montuotojų komanda ir transportas*.</li>
+              <li><b>Cecho duomenys</b> Plotas — …* · Maksimalus gaminio ilgis — …* · Kėlimo įranga — …*</li>
+            </ul>
+            <p class="stampas"><span>ATP Sprendimai · Titnago g. 19, Vilnius</span><span>Duomenys su * — tikslina užsakovas</span></p>
+          </div>
+        </div>
+        <div class="apie-foto rodyk">
+          <img src="https://images.pexels.com/photos/36003972/pexels-photo-36003972.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200" alt="Plieninės sijos matavimas slankmačiu ceche" loading="lazy">
+          <img src="https://images.pexels.com/photos/35992602/pexels-photo-35992602.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200" alt="Pramoninio pastato fasadas su cinkuotais laiptais" loading="lazy">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="sekcija" id="atsiliepimai" style="background:var(--l2)" aria-labelledby="atsiliepimai-h">
+    <div class="k">
+      <div class="antraste">
+        <div>
+          <span class="mono">Atsiliepimai</span>
+          <h2 class="h-l" id="atsiliepimai-h">Ką sako klientai</h2>
+        </div>
+        <p class="lead">Pavyzdiniai atsiliepimai — pakeisti tikrais su klientų sutikimu.</p>
+      </div>
+      <div class="atsiliepimai">
+        <figure class="atsiliepimas rodyk">
+          <blockquote>„Brėžinį išsiuntėme pirmadienį, pasiūlymą gavome kitą dieną, o konstrukcija buvo sumontuota sutartu terminu. Matmenys sutapo iki milimetro.“</blockquote>
+          <figcaption>
+            <img src="https://images.pexels.com/photos/8961125/pexels-photo-8961125.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=200" alt="Inžinierius statybvietėje" loading="lazy">
+            <span><span class="kas">Tomas</span><br><span class="mono">Projektų vadovas · pavyzdinis atsiliepimas</span></span>
+          </figcaption>
+        </figure>
+        <figure class="atsiliepimas rodyk">
+          <blockquote>„Turėklus išmatavo objekte ir pasiūlė nerūdijantį plieną vietoj dažyto. Sprendimas pasiteisino — priežiūros beveik nereikia.“</blockquote>
+          <figcaption>
+            <img src="https://images.pexels.com/photos/8960946/pexels-photo-8960946.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=200" alt="Inžinierė su šalmu statybvietėje" loading="lazy">
+            <span><span class="kas">Rūta</span><br><span class="mono">Statybos vadovė · pavyzdinis atsiliepimas</span></span>
+          </figcaption>
+        </figure>
+        <figure class="atsiliepimas rodyk">
+          <blockquote>„Armatūros karkasus pristatė tiesiai į objektą, sukomplektuotus pagal pamatų brėžinį. Betonavome be prastovų.“</blockquote>
+          <figcaption>
+            <img src="https://images.pexels.com/photos/19544217/pexels-photo-19544217.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=200" alt="Gamybos darbuotojas su šalmu" loading="lazy">
+            <span><span class="kas">Mindaugas</span><br><span class="mono">Objekto vadovas · pavyzdinis atsiliepimas</span></span>
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <section class="sekcija" id="duk" aria-labelledby="duk-h">
+    <div class="k">
+      <div class="antraste">
+        <div>
+          <span class="mono">Dažni klausimai</span>
+          <h2 class="h-l" id="duk-h">Ką klausia klientai</h2>
+        </div>
+        <p class="lead">Neradote atsakymo? Parašykite mums — atsakysime nurodytu el. paštu arba telefonu.</p>
+      </div>
+      <div class="duk">
+        <details open>
+          <summary><span class="nr">01</span> Ar gaminate pagal mūsų brėžinius, ar tik pagal savo?<span class="zenkl" aria-hidden="true">+</span></summary>
+          <p class="ats">Pagal Jūsų. Jei brėžinio nėra, išmatuosime objekte* ir parengsime gamybos brėžinį patvirtinimui.</p>
+        </details>
+        <details>
+          <summary><span class="nr">02</span> Iš kokio plieno gaminate konstrukcijas įrangai?<span class="zenkl" aria-hidden="true">+</span></summary>
+          <p class="ats">Dažniausiai iš juodo plieno su milteline danga arba cinkavimu. Maisto ar chemijos pramonei — iš nerūdijančio plieno AISI 304 arba AISI 316.</p>
+        </details>
+        <details>
+          <summary><span class="nr">03</span> Ar montuojate patys?<span class="zenkl" aria-hidden="true">+</span></summary>
+          <p class="ats">Taip, mūsų komanda gamina ir montuoja. Jei turite savo montuotojus, perduosime gaminį su montavimo schema.</p>
+        </details>
+        <details>
+          <summary><span class="nr">04</span> Nerūdijantis ar dažytas plienas turėklams?<span class="zenkl" aria-hidden="true">+</span></summary>
+          <p class="ats">Lauke ir viešose erdvėse patariame nerūdijantį — priežiūros beveik nereikia. Dažytas juodas plienas pigesnis ir tinka, kai svarbi spalva.</p>
+        </details>
+        <details>
+          <summary><span class="nr">05</span> Kaip parenkama tvoros ar vartų spalva?<span class="zenkl" aria-hidden="true">+</span></summary>
+          <p class="ats">Pagal RAL katalogą. Dažome milteliniu būdu ant cinkuoto paviršiaus, todėl danga laikosi ilgai.</p>
+        </details>
+        <details>
+          <summary><span class="nr">06</span> Ar pristatote armatūros karkasus dalimis pagal statybos etapus?<span class="zenkl" aria-hidden="true">+</span></summary>
+          <p class="ats">Taip. Pristatome į objektą Vilniuje ir apylinkėse*, o grafiką suderiname pagal pamatų, kolonų ir perdangų betonavimo eiliškumą.</p>
+        </details>
+        <details>
+          <summary><span class="nr">07</span> Kokius failus priimate?<span class="zenkl" aria-hidden="true">+</span></summary>
+          <p class="ats">PDF, DWG, DXF brėžinius ir XLSX armatūros specifikacijas. Jei turite tik popierinį brėžinį — atsiųskite nuotrauką.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <section class="sekcija" id="uzsakymas" style="background:var(--l2)" aria-labelledby="uzsakymas-h">
+    <div class="k forma-blokas">
+      <div>
+        <span class="mono" style="color:var(--zarija)">Užsakymas</span>
+        <h2 class="h-l" id="uzsakymas-h" style="margin:14px 0 18px">Turite brėžinį ar idėją?</h2>
+        <p class="lead">Atsiųskite brėžinį, eskizą ar objekto nuotrauką — įvertinsime ir pateiksime pasiūlymą. Dėl išsamesnės informacijos prašome kreiptis į mus.</p>
+        <p style="margin-top:var(--s5)">
+          <a class="didelis" href="tel:+37060808909" style="display:block;font-size:clamp(1.25rem,1.1rem + .8vw,1.75rem);font-weight:600;text-decoration:none">+370 608 08909</a>
+          <a class="cta" href="mailto:info@atpsprendimai.lt">info@atpsprendimai.lt</a>
+        </p>
+        <p class="mazas" style="margin-top:var(--s4)">Titnago g. 19, Vilnius<br>Darbo laikas: I–V 8.00–17.00*</p>
+        <p class="zyma">Priimame PDF, DWG, DXF brėžinius ir XLSX armatūros specifikacijas. Jei turite tik popierinį brėžinį — atsiųskite nuotrauką.</p>
+      </div>
+
+      <form class="forma" id="uzklausa" novalidate>
+        <div class="forma__vidus">
+          <div class="eile">
+            <div class="laukas">
+              <label for="vardas">Vardas <span class="zvaigzde">*</span></label>
+              <input id="vardas" name="vardas" type="text" autocomplete="given-name" required>
+              <span class="pranesimas">Prašome įvesti vardą.</span>
+            </div>
+            <div class="laukas">
+              <label for="pavarde">Pavardė</label>
+              <input id="pavarde" name="pavarde" type="text" autocomplete="family-name">
+            </div>
+          </div>
+          <div class="eile">
+            <div class="laukas">
+              <label for="elpastas">El. paštas <span class="zvaigzde">*</span></label>
+              <input id="elpastas" name="elpastas" type="email" placeholder="vardas@imone.lt" autocomplete="email" required>
+              <span class="pranesimas">Prašome įvesti teisingą el. pašto adresą.</span>
+            </div>
+            <div class="laukas">
+              <label for="telefonas">Telefonas</label>
+              <input id="telefonas" name="telefonas" type="tel" placeholder="+370" autocomplete="tel">
+            </div>
+          </div>
+          <div class="eile">
+            <div class="laukas">
+              <label for="imone">Įmonė</label>
+              <input id="imone" name="imone" type="text" autocomplete="organization">
+              <span class="pagalba">Neprivaloma</span>
+            </div>
+            <div class="laukas">
+              <label for="tema">Dėl ko kreipiatės</label>
+              <select id="tema" name="tema">
+                <option>Gaminiai pramonei</option>
+                <option>Mažoji architektūra</option>
+                <option>Gaminiai statyboms</option>
+                <option>Kita</option>
+              </select>
+            </div>
+          </div>
+          <div class="laukas">
+            <label for="pranesimas">Pranešimas</label>
+            <textarea id="pranesimas" name="pranesimas" placeholder="Trumpai aprašykite gaminį, matmenis, kiekį ir pageidaujamą terminą."></textarea>
+          </div>
+          <div class="laukas">
+            <label for="brezinys">Brėžinys arba nuotrauka</label>
+            <div class="failas" id="failo-zona">
+              Nutempkite failą čia arba pasirinkite
+              <input id="brezinys" name="brezinys" type="file" accept=".pdf,.dwg,.dxf,.xlsx,.jpg,.jpeg,.png">
+              <span class="pagalba" id="failo-info">PDF, DWG, DXF, XLSX, JPG, PNG · iki 20 MB</span>
+            </div>
+          </div>
+          <label class="sutikimas" for="sutikimas">
+            <input id="sutikimas" name="sutikimas" type="checkbox" required>
+            <span>Sutinku, kad mano pateikti duomenys būtų naudojami atsakymui į užklausą. <span class="zvaigzde">*</span></span>
+          </label>
+          <div class="forma__apacia">
+            <button class="mygtukas mygtukas--karstas" type="submit">Siųsti užklausą</button>
+            <span class="mazas">Laukai su <span class="zvaigzde">*</span> yra privalomi.</span>
+          </div>
+          <p class="zyma">Demonstracinė forma: laiškas nesiunčiamas. Tikroje svetainėje užklausa ateis į info@atpsprendimai.lt su prisegtu failu.</p>
+        </div>
+        <div class="sekme" role="status" aria-live="polite">
+          <h3 class="h-s">Ačiū, užklausa gauta.</h3>
+          <p class="mazas" id="sekmes-tekstas">Susisieksime nurodytu el. paštu arba telefonu.</p>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <section class="sekcija" id="kontaktai" aria-labelledby="kontaktai-h">
+    <div class="k">
+      <div class="antraste">
+        <div>
+          <span class="mono">Kontaktai</span>
+          <h2 class="h-l" id="kontaktai-h">Mus rasite</h2>
+        </div>
+        <p class="lead">Gaminius galite atsiimti mūsų ceche Titnago g. 19, Vilniuje — suderinus laiką telefonu.</p>
+      </div>
+      <div class="kontaktai">
+        <div>
+          <h3 class="h-s">Susisiekite</h3>
+          <a class="didelis" href="tel:+37060808909">+370 608 08909</a>
+          <a class="didelis" href="mailto:info@atpsprendimai.lt">info@atpsprendimai.lt</a>
+          <p class="mazas">Titnago g. 19, Vilnius<br>Darbo laikas: I–V 8.00–17.00*</p>
+        </div>
+        <div>
+          <h3 class="h-s">Rekvizitai</h3>
+          <table class="rekvizitai">
+            <tbody>
+              <tr><th scope="row">Pavadinimas</th><td>ATP Sprendimai*</td></tr>
+              <tr><th scope="row">Įmonės kodas</th><td>—*</td></tr>
+              <tr><th scope="row">PVM mokėtojo kodas</th><td>—*</td></tr>
+              <tr><th scope="row">Adresas</th><td>Titnago g. 19, Vilnius</td></tr>
+              <tr><th scope="row">Bankas</th><td>—*</td></tr>
+              <tr><th scope="row">Sąskaitos nr.</th><td>—*</td></tr>
+              <tr><th scope="row">Tel.</th><td><a href="tel:+37060808909">+370 608 08909</a></td></tr>
+              <tr><th scope="row">El. paštas</th><td><a href="mailto:info@atpsprendimai.lt">info@atpsprendimai.lt</a></td></tr>
+            </tbody>
+          </table>
+          <p class="zyma">Laukai su * — užpildo užsakovas.</p>
+        </div>
+        <div class="planas">
+          <svg viewBox="0 0 320 220" role="img" aria-label="Schema: ATP Sprendimai, Titnago g. 19, Vilnius">
+            <rect x="0" y="0" width="320" height="220" fill="#F4F5F7"></rect>
+            <g stroke="#C7CDD3" stroke-width="1">
+              <path d="M0 60 H320 M0 120 H320 M0 180 H320 M70 0 V220 M160 0 V220 M250 0 V220"></path>
+            </g>
+            <path d="M0 120 L320 60" stroke="#6F7980" stroke-width="6" fill="none"></path>
+            <g stroke="#BF3E14" stroke-width="2">
+              <path d="M160 70 V110 M140 90 H180"></path>
+              <circle cx="160" cy="90" r="14" fill="none"></circle>
+            </g>
+            <text x="160" y="140" text-anchor="middle" font-family="Geist Mono, monospace" font-size="11" fill="#111418">TITNAGO G. 19</text>
+            <text x="160" y="158" text-anchor="middle" font-family="Geist Mono, monospace" font-size="11" fill="#5F6971">VILNIUS</text>
+          </svg>
+          <p class="zyma">Schema orientacinė. Tikrą žemėlapį įdėsime WordPress etape.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footeris">
+  <div class="k">
+    <div>
+      <a class="zenklas" href="#" aria-label="ATP Sprendimai">
+        <svg viewBox="0 0 96 28" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="square" aria-hidden="true"><path d="M2 26 L14 2 L26 26"/><path d="M8 17 H20"/><path d="M32 3 H58"/><path d="M45 3 V26"/><path d="M39 26 H51"/><path d="M66 26 V2 H80 A7 7 0 0 1 80 16 H66"/></svg>
+        <b>Sprendimai</b>
+      </a>
+      <p class="mazas" style="color:var(--dumas);margin-top:14px;max-width:34ch">Nestandartiniai metalo gaminiai iš juodo ir nerūdijančio plieno.</p>
+    </div>
+    <div>
+      <h4>Paslaugos</h4>
+      <ul>
+        <li><a href="#paslaugos">Gaminiai pramonei</a></li>
+        <li><a href="#paslaugos">Mažoji architektūra</a></li>
+        <li><a href="#paslaugos">Gaminiai statyboms</a></li>
+        <li><a href="#procesas">Kaip dirbame</a></li>
+        <li><a href="#medziagos">Medžiagos</a></li>
+        <li><a href="#duk">Dažni klausimai</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Kontaktai</h4>
+      <ul>
+        <li>Titnago g. 19, Vilnius</li>
+        <li><a href="tel:+37060808909">+370 608 08909</a></li>
+        <li><a href="mailto:info@atpsprendimai.lt">info@atpsprendimai.lt</a></li>
+        <li><a href="#uzsakymas">Pateikti užklausą</a></li>
+      </ul>
+    </div>
+    <p class="footeris__apacia mono">
+      <span>© 2026 ATP Sprendimai</span>
+      <span>Vaizdinė medžiaga: Pexels</span>
+      <span>Dizaino demonstracija · ne veikianti svetainė</span>
+    </p>
+  </div>
+</footer>
+
+<script>
+(function(){
+  "use strict";
+  var rm = matchMedia('(prefers-reduced-motion: reduce)');
+
+  /* ── Vienas rAF ciklas: slinkties reikšmė į :root ir header būsena ── */
+  var virsus = document.getElementById('virsus'), sy = 0, laukia = false;
+  function kadras(){
+    laukia = false;
+    var y = window.scrollY || 0;
+    if (Math.abs(y - sy) >= 1){ sy = y; if (!rm.matches) document.documentElement.style.setProperty('--sy', y); }
+    virsus.classList.toggle('slinkta', y > 40);
+  }
+  addEventListener('scroll', function(){ if (!laukia){ laukia = true; requestAnimationFrame(kadras); } }, {passive:true});
+  kadras();
+
+  /* ── Vienas IntersectionObserver: sekcijų atsiradimas ── */
+  var io = new IntersectionObserver(function(irasai){
+    irasai.forEach(function(i){
+      if (!i.isIntersecting) return;
+      i.target.classList.remove('pries'); i.target.classList.add('matomas');
+      if (i.target.id === 'teiginys-linija') i.target.style.setProperty('--tp', 1);
+      io.unobserve(i.target);
+    });
+  }, {rootMargin: '0px 0px -12% 0px', threshold: 0.15});
+  document.querySelectorAll('.rodyk, #teiginys-linija').forEach(function(el){
+    if (el.getBoundingClientRect().top > innerHeight * 0.9){
+      el.classList.add('pries');
+      if (el.id === 'teiginys-linija') el.style.setProperty('--tp', 0);
+    }
+    io.observe(el);
+  });
+
+  /* ── Video: sumažintas judesys arba duomenų taupymas → tik poster ── */
+  var video = document.getElementById('hero-video');
+  if (rm.matches || (navigator.connection && navigator.connection.saveData)){
+    video.removeAttribute('autoplay'); video.pause();
+  }
+
+  /* ── Failo zona: vilkimas ir pavadinimas ── */
+  var zona = document.getElementById('failo-zona'), failas = document.getElementById('brezinys'), info = document.getElementById('failo-info');
+  ['dragenter','dragover'].forEach(function(e){ zona.addEventListener(e, function(ev){ ev.preventDefault(); zona.classList.add('virs'); }); });
+  ['dragleave','drop'].forEach(function(e){ zona.addEventListener(e, function(ev){ ev.preventDefault(); zona.classList.remove('virs'); }); });
+  zona.addEventListener('drop', function(ev){ if (ev.dataTransfer.files.length){ failas.files = ev.dataTransfer.files; rodykFaila(); } });
+  failas.addEventListener('change', rodykFaila);
+  function rodykFaila(){ info.textContent = failas.files.length ? 'Pridėtas failas: ' + failas.files[0].name : 'PDF, DWG, DXF, XLSX, JPG, PNG · iki 20 MB'; }
+
+  /* ── Formos tikrinimas (demonstracinis, be siuntimo) ── */
+  var forma = document.getElementById('uzklausa');
+  forma.addEventListener('submit', function(ev){
+    ev.preventDefault();
+    var klaidu = 0, pirma = null;
+    forma.querySelectorAll('[required]').forEach(function(laukas){
+      var laukelis = laukas.closest('.laukas') || laukas.closest('.sutikimas');
+      var gerai = laukas.type === 'checkbox' ? laukas.checked : laukas.value.trim().length > 0;
+      if (gerai && laukas.type === 'email') gerai = /^[^@\s]+@[^@\s]+\.[^@\s]{2,}$/.test(laukas.value.trim());
+      if (laukelis && laukelis.classList) laukelis.classList.toggle('klaida', !gerai);
+      if (!gerai){ klaidu++; if (!pirma) pirma = laukas; }
+    });
+    if (klaidu){ if (pirma) pirma.focus(); return; }
+    var vardas = document.getElementById('vardas').value.trim();
+    document.getElementById('sekmes-tekstas').textContent = vardas
+      ? vardas + ', susisieksime nurodytu el. paštu arba telefonu. Tai demonstracinė forma — laiškas nebuvo išsiųstas.'
+      : 'Susisieksime nurodytu el. paštu arba telefonu. Tai demonstracinė forma — laiškas nebuvo išsiųstas.';
+    forma.classList.add('issiusta');
+    forma.scrollIntoView({block:'center', behavior: rm.matches ? 'auto' : 'smooth'});
+  });
+})();
+</script>
+</body>
+</html>
