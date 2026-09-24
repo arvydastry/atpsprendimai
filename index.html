@@ -924,31 +924,44 @@ ul{margin:0;padding:0;list-style:none}
 
   /* ── Vienas rAF ciklas: slinkties reikšmė į :root ir header būsena ── */
   var virsus = document.getElementById('virsus'), sy = 0, laukia = false;
+  var laukia_rodymo = [];   // sekcijos, laukiančios atsiradimo
   function kadras(){
     laukia = false;
     var y = window.scrollY || 0;
     if (Math.abs(y - sy) >= 1){ sy = y; if (!rm.matches) document.documentElement.style.setProperty('--sy', y); }
     virsus.classList.toggle('slinkta', y > 40);
+    if (typeof laukia_rodymo !== 'undefined' && laukia_rodymo.length) rodymo_patikra();
   }
   addEventListener('scroll', function(){ if (!laukia){ laukia = true; requestAnimationFrame(kadras); } }, {passive:true});
   kadras();
 
-  /* ── Vienas IntersectionObserver: sekcijų atsiradimas ── */
-  var io = new IntersectionObserver(function(irasai){
-    irasai.forEach(function(i){
-      if (!i.isIntersecting) return;
-      i.target.classList.remove('pries'); i.target.classList.add('matomas');
-      if (i.target.id === 'teiginys-linija') i.target.style.setProperty('--tp', 1);
-      io.unobserve(i.target);
-    });
-  }, {rootMargin: '0px 0px -12% 0px', threshold: 0.15});
+  /* ── Sekcijų atsiradimas: tikrinama tame pačiame rAF cikle.
+        IntersectionObserver kai kuriose aplinkose (įterptos naršyklės, emuliuojamas
+        vaizdas) nepraneša, o turinys tada liktų paslėptas — todėl naudojame slinktį. ── */
+  function rodymo_patikra(){
+    if (!laukia_rodymo.length) return;
+    for (var k = laukia_rodymo.length - 1; k >= 0; k--){
+      var el = laukia_rodymo[k];
+      if (el.getBoundingClientRect().top < innerHeight * 0.88){
+        el.classList.remove('pries');
+        el.classList.add('matomas');
+        if (el.id === 'teiginys-linija') el.style.setProperty('--tp', 1);
+        laukia_rodymo.splice(k, 1);
+      }
+    }
+  }
   document.querySelectorAll('.rodyk, #teiginys-linija').forEach(function(el){
-    if (el.getBoundingClientRect().top > innerHeight * 0.9){
+    if (el.getBoundingClientRect().top > innerHeight * 0.88){
       el.classList.add('pries');
       if (el.id === 'teiginys-linija') el.style.setProperty('--tp', 0);
+      laukia_rodymo.push(el);
+    } else {
+      el.classList.add('matomas');
     }
-    io.observe(el);
   });
+  addEventListener('resize', rodymo_patikra, {passive: true});
+  setTimeout(rodymo_patikra, 400);
+  rodymo_patikra();
 
   /* ── Video: sumažintas judesys arba duomenų taupymas → tik poster ── */
   var video = document.getElementById('hero-video');
