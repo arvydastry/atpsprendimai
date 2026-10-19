@@ -472,3 +472,13 @@ body.atp .atp-tamsu .atp-mono{color:var(--dumas)}
 body.atp .atp-sekcija .atp-zyma{margin:var(--s6) 0 0;font:400 .75rem/1.5 var(--ff-m);color:var(--t3)}
 body.atp .atp-tamsu .atp-zyma{color:var(--dumas)}
 body.atp .atp-sekcija .atp-virs{margin-bottom:var(--s6)}
+
+/* ── Konstruktoriaus puslapis su pradžios ekranu ── */
+body.atp .atp-konstruktorius:has(.atp-hero){padding-top:0}
+body.atp .atp-konstruktorius .wpb_row{margin-bottom:0}
+body.atp .atp-hero::after{background:
+  linear-gradient(180deg,rgba(20,23,26,.80) 0%,rgba(20,23,26,.50) 38%,rgba(20,23,26,.94) 100%),
+  linear-gradient(90deg,rgba(20,23,26,.74) 0%,rgba(20,23,26,.20) 58%,rgba(20,23,26,0) 82%)}
+body.atp .atp-video::after{background:
+  linear-gradient(180deg,rgba(20,23,26,.36) 0%,rgba(20,23,26,.90) 100%),
+  linear-gradient(90deg,rgba(20,23,26,.70) 0%,rgba(20,23,26,.15) 60%,rgba(20,23,26,0) 85%)}
