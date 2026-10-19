@@ -508,3 +508,12 @@ body.atp .atp-vidinis-turinys p{margin:0 0 1em;color:var(--t2)}
 body.atp .atp-vidinis-turinys ul,body.atp .atp-vidinis-turinys ol{list-style:disc;padding-left:1.4em;margin:0 0 var(--s4);color:var(--t2)}
 body.atp .atp-vidinis-turinys li{margin-bottom:.4em}
 body.atp .atp-vidinis-turinys a{color:var(--grudinta);text-decoration:underline}
+
+/* ── Pradžios ekrano tekstų įskaitomumas ant video ── */
+body.atp .atp-hero::after{background:
+  linear-gradient(180deg,rgba(20,23,26,.82) 0%,rgba(20,23,26,.58) 38%,rgba(20,23,26,.94) 100%),
+  linear-gradient(90deg,rgba(20,23,26,.80) 0%,rgba(20,23,26,.34) 55%,rgba(20,23,26,0) 86%)}
+body.atp .atp-hero .wpb_text_column{text-shadow:0 1px 20px rgba(0,0,0,.5)}
+body.atp .atp-hero .atp-lead{color:rgba(244,245,247,.96)}
+body.atp .atp-video .wpb_text_column{text-shadow:0 1px 20px rgba(0,0,0,.5)}
+body.atp .atp-hero .atp-mygtukas,body.atp .atp-video .atp-mygtukas{text-shadow:none}
