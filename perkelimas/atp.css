@@ -499,3 +499,12 @@ body.atp .atp-video::after{background:
   body.atp .virsus .meniu a{display:inline-flex;white-space:nowrap;font-size:.625rem;letter-spacing:.08em;opacity:.9}
   body.atp .virsus .meniu a.tel{color:var(--zarija-sv);opacity:1}
 }
+
+/* ── Vidiniai tekstiniai puslapiai konstruktoriuje ── */
+body.atp .atp-vidinis-turinys > .vc_column-inner > .wpb_wrapper{max-width:min(860px,100%)!important}
+body.atp .atp-vidinis-turinys h1{font-size:clamp(2rem,1.35rem + 2.6vw,3.5rem);line-height:1.04;margin:0 0 var(--s4)}
+body.atp .atp-vidinis-turinys h2{font-size:clamp(1.25rem,1.1rem + .8vw,1.75rem);margin:var(--s5) 0 12px}
+body.atp .atp-vidinis-turinys p{margin:0 0 1em;color:var(--t2)}
+body.atp .atp-vidinis-turinys ul,body.atp .atp-vidinis-turinys ol{list-style:disc;padding-left:1.4em;margin:0 0 var(--s4);color:var(--t2)}
+body.atp .atp-vidinis-turinys li{margin-bottom:.4em}
+body.atp .atp-vidinis-turinys a{color:var(--grudinta);text-decoration:underline}
