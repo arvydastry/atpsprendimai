@@ -490,3 +490,12 @@ body.atp .atp-hero::after{background:
 body.atp .atp-video::after{background:
   linear-gradient(180deg,rgba(20,23,26,.36) 0%,rgba(20,23,26,.90) 100%),
   linear-gradient(90deg,rgba(20,23,26,.70) 0%,rgba(20,23,26,.15) 60%,rgba(20,23,26,0) 85%)}
+
+/* ── Meniu mažame ekrane: nuorodos slenkamoje juostoje ── */
+@media (max-width:980px){
+  body.atp .virsus .k{flex-wrap:wrap;height:auto;padding-block:10px;gap:6px}
+  body.atp .virsus .meniu{width:100%;overflow-x:auto;gap:16px;padding-bottom:2px;scrollbar-width:none}
+  body.atp .virsus .meniu::-webkit-scrollbar{display:none}
+  body.atp .virsus .meniu a{display:inline-flex;white-space:nowrap;font-size:.625rem;letter-spacing:.08em;opacity:.9}
+  body.atp .virsus .meniu a.tel{color:var(--zarija-sv);opacity:1}
+}
