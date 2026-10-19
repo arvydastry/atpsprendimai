@@ -1,0 +1,161 @@
+[vc_row full_width="stretch_row"][vc_column el_class="atp-sekcija atp-hero"][vc_raw_html]PHZpZGVvIGF1dG9wbGF5IG11dGVkIGxvb3AgcGxheXNpbmxpbmUgcHJlbG9hZD0ibWV0YWRhdGEiIHBvc3Rlcj0iaHR0cHM6Ly9hdHBzcHJlbmRpbWFpLmx0L3dwLWNvbnRlbnQvdGhlbWVzL3NhbGllbnQtYXRwL2Fzc2V0cy9pbWcvcG9zdGVyLTMxODA2Nzg4LmpwZyIgYXJpYS1sYWJlbD0iU3V2aXJpbmltbyBkYXJiYWkgbWV0YWxvIGdhbXlib3MgY2VjaGUiPjxzb3VyY2Ugc3JjPSJodHRwczovL2F0cHNwcmVuZGltYWkubHQvd3AtY29udGVudC90aGVtZXMvc2FsaWVudC1hdHAvYXNzZXRzL3ZpZGVvL3ZpZGVvLTMxODA2Nzg4Lm1wNCIgdHlwZT0idmlkZW8vbXA0Ij48L3ZpZGVvPg==[/vc_raw_html][vc_column_text]<p class="atp-eyebrow">Metalo gamyba · Vilnius</p>
+<h1>Plienas pagal Jūsų brėžinį.</h1>
+<p class="atp-lead">Gaminame konstrukcijas pramonei, mažosios architektūros elementus ir gaminius statyboms iš juodo ir nerūdijančio plieno — pagal Jūsų brėžinius, su montavimu objekte.</p>
+<p><a class="atp-mygtukas" href="#uzsakymas">Pateikti užklausą</a> <a class="atp-nuoroda" href="#paslaugos">Mūsų paslaugos</a></p>
+<p class="atp-juosta">Titnago g. 19, Vilnius · <a href="tel:+37060808909">+370 608 08909</a> · <a href="mailto:info@atpsprendimai.lt">info@atpsprendimai.lt</a></p>[/vc_column_text][/vc_column][/vc_row]
+[vc_row full_width="stretch_row"][vc_column el_class="atp-sekcija atp-tamsu"][vc_row_inner][vc_column_inner width="1/3" el_class="atp-faktas"][vc_column_text]<p class="atp-mono">01</p>
+<h3>Juodas ir nerūdijantis plienas</h3>
+<p>Pjauname, lankstome, suvirinam ir apdorojame paviršių: milteliniai dažai, karštas cinkavimas, šlifavimas.</p>[/vc_column_text][/vc_column_inner][vc_column_inner width="1/3" el_class="atp-faktas"][vc_column_text]<p class="atp-mono">02</p>
+<h3>Gamyba ir montavimas</h3>
+<p>Ta pati komanda pagamina ceche ir sumontuoja objekte. Už matmenis, apdailą ir terminą atsakome vienoje vietoje.</p>[/vc_column_text][/vc_column_inner][vc_column_inner width="1/3" el_class="atp-faktas"][vc_column_text]<p class="atp-mono">03</p>
+<h3>Užsakymus įvykdom laiku</h3>
+<p>Gamybos terminą įrašome į pasiūlymą, o apie eigą informuojame iki pat perdavimo.</p>[/vc_column_text][/vc_column_inner][/vc_row_inner][/vc_column][/vc_row]
+[vc_row full_width="stretch_row"][vc_column el_class="atp-sekcija atp-sviesi atp-paslaugos"][vc_column_text el_class="atp-virs"]<p class="atp-eyebrow">Paslaugos</p>
+<h2 id="paslaugos">Trys kryptys — viena gamyba</h2>
+<p class="atp-lead">Šioje skiltyje rasite trumpą informaciją apie mūsų gaminamą produkciją.</p>[/vc_column_text][vc_row_inner][vc_column_inner width="1/2" el_class="atp-paslauga-media"][vc_column_text]<p class="atp-mono">01 · Pramonei</p>[/vc_column_text][vc_raw_html]PGltZyBzcmM9Imh0dHBzOi8vYXRwc3ByZW5kaW1haS5sdC93cC1jb250ZW50L3RoZW1lcy9zYWxpZW50LWF0cC9hc3NldHMvaW1nL2ZvdG8tMjY3OTY3MTQuanBnIiBhbHQ9IkNpbmt1b3TFsyBncm90ZWxpxbMgYWlrxaF0ZWzElyBzdSB0dXLEl2tsYWlzIHByYW1vbmluaWFtZSBwYXN0YXRlIiBsb2FkaW5nPSJsYXp5Ij4=[/vc_raw_html][/vc_column_inner][vc_column_inner width="1/2" el_class="atp-paslauga-tekstas"][vc_column_text]<h3>Konstrukcijos įrangai — pagal Jūsų brėžinius</h3>
+<p class="atp-lead">Konstrukcijos agregatų ir įrangos montavimui pagal Jūsų pateiktus brėžinius. Gaminame iš juodo arba nerūdijančio plieno, cinkuojame* ar dažome ir sumontuojame objekte.</p>
+<ul>
+<li><b>Rėmai ir atramos įrangai</b> — transporterių, siurblių, ventiliatorių ir staklių rėmai su tvirtinimo taškais pagal įrangos pasą.</li>
+<li><b>Aptarnavimo aikštelės ir laiptai</b> — perėjimai, pakylos ir laiptai prie įrangos, rezervuarų ir vamzdynų.</li>
+<li><b>Evakuacinės ir techninės kopėčios</b> — vertikalios kopėčios su apsauginiais lankais ir aikštelėmis.</li>
+<li><b>Apsauginiai atitvarai</b> — sandėlių pravažiavimams, stelažų galams ir įrangos zonoms.</li>
+<li><b>Vamzdynų ir kabelių atramos</b> — estakados, konsolės ir laikikliai pagal trasų projektą.</li>
+<li><b>Nestandartinės konstrukcijos</b> — viskas, kas nubraižyta brėžinyje ir telpa į mūsų cechą.</li>
+</ul>
+<p><a class="atp-nuoroda" href="#uzsakymas">Užklausti pasiūlymo</a></p>[/vc_column_text][/vc_column_inner][/vc_row_inner][vc_row_inner][vc_column_inner width="1/2" el_class="atp-paslauga-media"][vc_column_text]<p class="atp-mono">02 · Mažoji architektūra</p>[/vc_column_text][vc_raw_html]PGltZyBzcmM9Imh0dHBzOi8vYXRwc3ByZW5kaW1haS5sdC93cC1jb250ZW50L3RoZW1lcy9zYWxpZW50LWF0cC9hc3NldHMvaW1nL2ZvdG8tMjM5NDA0NTkuanBnIiBhbHQ9Ik5lcsWrZGlqYW7EjWlvIHBsaWVubyB0dXLEl2tsYXMgZGFuZ2F1cyBmb25lIiBsb2FkaW5nPSJsYXp5Ij4=[/vc_raw_html][/vc_column_inner][vc_column_inner width="1/2" el_class="atp-paslauga-tekstas"][vc_column_text]<h3>Tvoros, turėklai, vartai — Jūsų sklypui</h3>
+<p class="atp-lead">Tvoros, turėklai, vartai ir varteliai, balkonai, šiltnamiai, stogeliai, terasos ir visa kita, ko Jums gali prireikti. Išmatuojame objekte*, pagaminame ir sumontuojame.</p>
+<ul>
+<li><b>Turėklai</b> — laiptams, terasoms, balkonams ir pandusams; nerūdijantis arba dažytas plienas.</li>
+<li><b>Tvoros ir vartai</b> — segmentai iš profilių, stumdomi ir varstomi vartai, varteliai su automatikos paruošimu.</li>
+<li><b>Stogeliai</b> — virš įėjimų, terasų ir laiptų, su polikarbonato, stiklo ar skardos danga.</li>
+<li><b>Balkonai ir terasos</b> — plieniniai balkonų karkasai, terasų konstrukcijos ir laiptai.</li>
+<li><b>Šiltnamiai ir pavėsinės</b> — plieniniai karkasai pagal Jūsų matmenis, paruošti dangai.</li>
+<li><b>Individualūs elementai</b> — laiptai, laikikliai, dekoratyvinės pertvaros pagal eskizą.</li>
+</ul>
+<p><a class="atp-nuoroda" href="#uzsakymas">Užklausti pasiūlymo</a></p>[/vc_column_text][/vc_column_inner][/vc_row_inner][vc_row_inner][vc_column_inner width="1/2" el_class="atp-paslauga-media"][vc_column_text]<p class="atp-mono">03 · Statyboms</p>[/vc_column_text][vc_raw_html]PGltZyBzcmM9Imh0dHBzOi8vYXRwc3ByZW5kaW1haS5sdC93cC1jb250ZW50L3RoZW1lcy9zYWxpZW50LWF0cC9hc3NldHMvaW1nL2ZvdG8tMzc3MzMxNzkuanBnIiBhbHQ9IkRhcmJpbmlua2FpIHByaWUgcGFtYXTFsyBhcm1hdMWrcm9zIHRpbmtsbyBzdGF0eWJ2aWV0xJdqZSIgbG9hZGluZz0ibGF6eSI+[/vc_raw_html][/vc_column_inner][vc_column_inner width="1/2" el_class="atp-paslauga-tekstas"][vc_column_text]<h3>Armatūra ir konstrukcijos statybai</h3>
+<p class="atp-lead">Armatūros karkasai ir lankstiniai, rostverkai, poliai, rygeliai, sijos, kolonos, santvaros, įdėtinės detalės ir kiti metalo gaminiai statybai. Gaminame pagal konstrukcinį projektą ir pristatome į objektą sutartu laiku.</p>
+<ul>
+<li><b>Armatūros karkasai</b> — rostverkams, poliams, rygeliams, kolonoms; surišti ir sužymėti pagal ašis.</li>
+<li><b>Armatūros lankstiniai</b> — apkabos, L, U, Z lankstiniai ir tiesūs strypai pagal specifikaciją.</li>
+<li><b>Sijos ir kolonos</b> — suvirintos dvitėjinės ir dėžinės sijos, kolonos, rygeliai su jungčių plokštelėmis.</li>
+<li><b>Santvaros</b> — stogo santvaros ir ryšiai sandėliams, gamybos pastatams ir stoginėms.</li>
+<li><b>Įdėtinės detalės</b> — plokštelės su ankeriais, betonuojamos į pamatus, kolonas ir perdangas.</li>
+<li><b>Kiti metalo gaminiai statybai</b> — laiptai, atramos, karkasai pagal projektą.</li>
+</ul>
+<p><a class="atp-nuoroda" href="#uzsakymas">Užklausti pasiūlymo</a></p>[/vc_column_text][/vc_column_inner][/vc_row_inner][/vc_column][/vc_row]
+[vc_row full_width="stretch_row"][vc_column el_class="atp-sekcija atp-video"][vc_raw_html]PHZpZGVvIGF1dG9wbGF5IG11dGVkIGxvb3AgcGxheXNpbmxpbmUgcHJlbG9hZD0ibWV0YWRhdGEiIHBvc3Rlcj0iaHR0cHM6Ly9hdHBzcHJlbmRpbWFpLmx0L3dwLWNvbnRlbnQvdGhlbWVzL3NhbGllbnQtYXRwL2Fzc2V0cy9pbWcvcG9zdGVyLTMxMDE2OTE4LmpwZyIgYXJpYS1sYWJlbD0iTWVpc3RyYXMgY2VjaGUgcHJpZSBwbGllbmluaW8gcsSXbW8iPjxzb3VyY2Ugc3JjPSJodHRwczovL2F0cHNwcmVuZGltYWkubHQvd3AtY29udGVudC90aGVtZXMvc2FsaWVudC1hdHAvYXNzZXRzL3ZpZGVvL3ZpZGVvLTMxMDE2OTE4Lm1wNCIgdHlwZT0idmlkZW8vbXA0Ij48L3ZpZGVvPg==[/vc_raw_html][vc_column_text]<p class="atp-eyebrow">Gamyba pagal dokumentaciją</p>
+<h2>Pagal Jūsų brėžinius</h2>
+<p class="atp-lead">Atsiųskite brėžinį arba eskizą — įvertinsime gamybos galimybes, medžiagą ir terminą. Gaminame konstrukcijas agregatų ir įrangos montavimui, rėmus, aptarnavimo aikšteles ir kopėčias pramoniniams pastatams.</p>
+<p><a class="atp-nuoroda" href="#uzsakymas">Atsiųsti brėžinį</a></p>[/vc_column_text][/vc_column][/vc_row]
+[vc_row full_width="stretch_row"][vc_column el_class="atp-sekcija atp-tamsu"][vc_column_text el_class="atp-virs"]<p class="atp-eyebrow">Kaip dirbame</p>
+<h2 id="procesas">Nuo brėžinio iki sumontuoto gaminio</h2>
+<p class="atp-lead">Trys etapai — nuo dokumentacijos iki sumontuoto gaminio objekte.</p>[/vc_column_text][vc_row_inner][vc_column_inner width="1/3" el_class="atp-etapas"][vc_column_text]<span class="atp-nr">01</span>
+<p class="atp-mono">Brėžinys</p>
+<h3>Įvertinimas ir pasiūlymas</h3>
+<p>Peržiūrime Jūsų brėžinį arba eskizą, patiksliname matmenis, medžiagą ir apdailą. Pateikiame pasiūlymą su kaina ir gamybos terminu.</p>
+<p class="atp-klientas"><strong>Ką pateikia klientas</strong>Brėžinį PDF, DWG ar DXF formatu arba eskizą su matmenimis, kiekį, pageidaujamą medžiagą ir apdailą, objekto adresą.</p>[/vc_column_text][/vc_column_inner][vc_column_inner width="1/3" el_class="atp-etapas"][vc_column_text]<span class="atp-nr">02</span>
+<p class="atp-mono">Gamyba</p>
+<h3>Pjovimas, lankstymas, suvirinimas</h3>
+<p>Gaminį pjauname, lankstome, suvirinam ir apdorojame mūsų ceche Vilniuje. Prieš išsiuntimą matmenis patikriname pagal brėžinį.</p>
+<p class="atp-klientas"><strong>Ką pateikia klientas</strong>Patvirtintą pasiūlymą, atsakymus į gamybos klausimus dėl spalvos ir tvirtinimo vietų, avansą, jei numatytas sutartyje.</p>[/vc_column_text][/vc_column_inner][vc_column_inner width="1/3" el_class="atp-etapas"][vc_column_text]<span class="atp-nr">03</span>
+<p class="atp-mono">Montavimas</p>
+<h3>Pristatymas ir montavimas</h3>
+<p>Pristatome gaminį į objektą ir sumontuojame arba perduodame Jūsų montuotojams kartu su montavimo schema.</p>
+<p class="atp-klientas"><strong>Ką pateikia klientas</strong>Paruoštą pagrindą ar angą, prieigą prie objekto ir atsakingą asmenį objekte.</p>[/vc_column_text][/vc_column_inner][/vc_row_inner][vc_column_text]<p class="atp-zyma">Mūsų gaminiai atitinka Jūsų lūkesčius, o užsakymus įvykdom laiku.</p>[/vc_column_text][/vc_column][/vc_row]
+[vc_row full_width="stretch_row"][vc_column el_class="atp-sekcija atp-sviesi atp-stalas"][vc_column_text el_class="atp-virs"]<p class="atp-eyebrow">Medžiagos</p>
+<h2 id="medziagos">Juodas ar nerūdijantis?</h2>
+<p class="atp-lead">Trumpai apie tai, kada kuri medžiaga tinka. Jei abejojate — patarsime pagal objekto sąlygas.</p>[/vc_column_text][vc_row_inner][vc_column_inner width="1/2" el_class="atp-medziaga"][vc_raw_html]PGltZyBzcmM9Imh0dHBzOi8vYXRwc3ByZW5kaW1haS5sdC93cC1jb250ZW50L3RoZW1lcy9zYWxpZW50LWF0cC9hc3NldHMvaW1nL2ZvdG8tMTI1MzI2ODIuanBnIiBhbHQ9IlRhbXNhdXMganVvZG8gcGxpZW5vIHBhdmlyxaFpdXMiIGxvYWRpbmc9ImxhenkiPg==[/vc_raw_html][vc_column_text el_class="atp-vidus"]<p class="atp-mono">01 · Juodas plienas</p>
+<h3>Konstrukcijoms ir dažytiems gaminiams</h3>
+<p class="atp-mazas">Pigesnė medžiaga ir paprastesnis apdirbimas. Paviršių saugome karštu cinkavimu arba milteliniais dažais pasirinkta RAL spalva.</p>[/vc_column_text][/vc_column_inner][vc_column_inner width="1/2" el_class="atp-medziaga"][vc_raw_html]PGltZyBzcmM9Imh0dHBzOi8vYXRwc3ByZW5kaW1haS5sdC93cC1jb250ZW50L3RoZW1lcy9zYWxpZW50LWF0cC9hc3NldHMvaW1nL2ZvdG8tMjc2Njc4MjguanBnIiBhbHQ9IsWgbGlmdW90byBuZXLFq2RpamFuxI1pbyBwbGllbm8gcGF2aXLFoWl1cyIgbG9hZGluZz0ibGF6eSI+[/vc_raw_html][vc_column_text el_class="atp-vidus"]<p class="atp-mono">02 · Nerūdijantis plienas</p>
+<h3>Turėklams ir viešosioms erdvėms</h3>
+<p class="atp-mazas">Atsparus be papildomos dangos. Lauke dažniausiai renkamasi AISI 304, prie druskų ar chemijos — AISI 316.</p>[/vc_column_text][/vc_column_inner][/vc_row_inner][vc_column_text el_class="atp-lentele"]<table>
+<thead><tr><th>Kriterijus</th><th>Juodas plienas</th><th>Nerūdijantis plienas</th></tr></thead>
+<tbody>
+<tr><th>Atsparumas korozijai</th><td>Pats plienas rūdija — reikalinga apsauga: karštas cinkavimas arba dažymas milteliniu būdu.</td><td>Atsparus be papildomos dangos. Lauke ir drėgnoje aplinkoje — AISI 304, prie druskų ar chemijos — AISI 316.</td></tr>
+<tr><th>Kaina</th><td>Pigesnė medžiaga ir paprastesnis apdirbimas.</td><td>Brangesnė medžiaga, sudėtingesnis suvirinimas ir paviršiaus apdaila.</td></tr>
+<tr><th>Išvaizda</th><td>Dažomas pasirinkta spalva arba paliekamas cinkuotas paviršius.</td><td>Šlifuotas arba poliruotas metalo paviršius — nereikia dažyti.</td></tr>
+<tr><th>Kur tinka</th><td>Laikančiosios konstrukcijos, rėmai, armatūra, cinkuotos tvoros, kopėčios ir aikštelės.</td><td>Turėklai, viešųjų erdvių elementai, fasado detalės, maisto ir chemijos pramonės įranga.</td></tr>
+<tr><th>Priežiūra</th><td>Dangą laikui bėgant reikia atnaujinti — ypač pažeistose vietose.</td><td>Pakanka periodiškai nuplauti; perdažyti nereikia.</td></tr>
+</tbody>
+</table>[/vc_column_text][vc_column_text]<p class="atp-zyma">Medžiagos markę ir dangos storį parenkame pagal objekto sąlygas ir Jūsų brėžinį.</p>[/vc_column_text][/vc_column][/vc_row]
+[vc_row full_width="stretch_row"][vc_column el_class="atp-sekcija atp-sviesi"][vc_column_text el_class="atp-virs"]<p class="atp-eyebrow">Darbai</p>
+<h2 id="projektai">Įgyvendinti projektai</h2>
+<p class="atp-lead">Pažiūrėkite mūsų įrengimus ir gaminamus produktus.</p>[/vc_column_text][vc_row_inner][vc_column_inner width="1/4" el_class="atp-projektas"][vc_raw_html]PGltZyBzcmM9Imh0dHBzOi8vYXRwc3ByZW5kaW1haS5sdC93cC1jb250ZW50L3RoZW1lcy9zYWxpZW50LWF0cC9hc3NldHMvaW1nL2ZvdG8tMjAxNzEzODkuanBnIiBhbHQ9IlZlcnRpa2FsaW9zIGtvcMSXxI1pb3Mgc3UgYXBzYXVnaW5pdSBsYW5rdSBhbnQgcHJhbW9uaW5pbyBwYXN0YXRvIGZhc2FkbyIgbG9hZGluZz0ibGF6eSI+[/vc_raw_html][vc_column_text el_class="atp-vidus"]<p class="atp-mono">Pramonei · Vilniaus r. · cinkuota</p>
+<h3>Evakuacinės kopėčios su apsauginiais lankais</h3>
+<p>Vertikalios kopėčios su lankais ir aikštele ant pramoninio pastato fasado.</p>[/vc_column_text][/vc_column_inner][vc_column_inner width="1/4" el_class="atp-projektas"][vc_raw_html]PGltZyBzcmM9Imh0dHBzOi8vYXRwc3ByZW5kaW1haS5sdC93cC1jb250ZW50L3RoZW1lcy9zYWxpZW50LWF0cC9hc3NldHMvaW1nL2ZvdG8tMTc1ODgxODYuanBnIiBhbHQ9Ik5lcsWrZGlqYW7EjWlvIHBsaWVubyBmYXNhZG8gcGFuZWzEl3MgaXIgdHVyxJdrbG8gZGV0YWzElyIgbG9hZGluZz0ibGF6eSI+[/vc_raw_html][vc_column_text el_class="atp-vidus"]<p class="atp-mono">Mažoji architektūra · Vilnius · nerūdijantis</p>
+<h3>Turėklai administraciniam pastatui</h3>
+<p>Laiptų ir terasos turėklai iš šlifuoto nerūdijančio plieno su stiklo užpildu.</p>[/vc_column_text][/vc_column_inner][vc_column_inner width="1/4" el_class="atp-projektas"][vc_raw_html]PGltZyBzcmM9Imh0dHBzOi8vYXRwc3ByZW5kaW1haS5sdC93cC1jb250ZW50L3RoZW1lcy9zYWxpZW50LWF0cC9hc3NldHMvaW1nL2ZvdG8tMzc1MzUwMTQuanBnIiBhbHQ9Ik1ldGFsaW5pYWkgdmFydGFpIHN1IMSvc3RyacW+xbMganVvc3TFsyByYcWhdHUiIGxvYWRpbmc9ImxhenkiPg==[/vc_raw_html][vc_column_text el_class="atp-vidus"]<p class="atp-mono">Mažoji architektūra · Vilniaus r. · dažyta</p>
+<h3>Stumdomi vartai su varteliais</h3>
+<p>Stumdomi kiemo vartai su automatikos paruošimu ir tos pačios linijos varteliai.</p>[/vc_column_text][/vc_column_inner][vc_column_inner width="1/4" el_class="atp-projektas"][vc_raw_html]PGltZyBzcmM9Imh0dHBzOi8vYXRwc3ByZW5kaW1haS5sdC93cC1jb250ZW50L3RoZW1lcy9zYWxpZW50LWF0cC9hc3NldHMvaW1nL2ZvdG8tMTUzMDk4OS5qcGciIGFsdD0iU2FuZMSXbGlvIHN0b2dvIHNhbnR2YXJvcyBzdSBzdG9nbGFuZ2lhaXMiIGxvYWRpbmc9ImxhenkiPg==[/vc_raw_html][vc_column_text el_class="atp-vidus"]<p class="atp-mono">Statyboms · Vilnius · dažyta</p>
+<h3>Santvaros sandėlio stogui</h3>
+<p>Plieninės stogo santvaros ir ryšiai vieno aukšto sandėliavimo pastatui.</p>[/vc_column_text][/vc_column_inner][vc_column_inner width="1/4" el_class="atp-projektas"][vc_raw_html]PGltZyBzcmM9Imh0dHBzOi8vYXRwc3ByZW5kaW1haS5sdC93cC1jb250ZW50L3RoZW1lcy9zYWxpZW50LWF0cC9hc3NldHMvaW1nL2ZvdG8tNTUxMjA5Ni5qcGciIGFsdD0ixaBpbHRuYW1pbyBwbGllbmluaXMga2Fya2FzYXMgacWhIHZpZGF1cyIgbG9hZGluZz0ibGF6eSI+[/vc_raw_html][vc_column_text el_class="atp-vidus"]<p class="atp-mono">Mažoji architektūra · Vilniaus r. · cinkuota</p>
+<h3>Šiltnamio karkasas privačiam sklypui</h3>
+<p>Plieninis karkasas pagal užsakovo matmenis, paruoštas polikarbonato dangai.</p>[/vc_column_text][/vc_column_inner][vc_column_inner width="1/4" el_class="atp-projektas"][vc_raw_html]PGltZyBzcmM9Imh0dHBzOi8vYXRwc3ByZW5kaW1haS5sdC93cC1jb250ZW50L3RoZW1lcy9zYWxpZW50LWF0cC9hc3NldHMvaW1nL2ZvdG8tMTQ5MjQ0NDYuanBnIiBhbHQ9IlBsaWVuaW5pYWkgbGFpcHRhaSBzdSB0dXLEl2tsYWlzIGFudCBzaWxvIHNpZW5vcyIgbG9hZGluZz0ibGF6eSI+[/vc_raw_html][vc_column_text el_class="atp-vidus"]<p class="atp-mono">Pramonei · Vilnius · cinkuota</p>
+<h3>Aptarnavimo aikštelė prie įrangos</h3>
+<p>Aikštelė su turėklais ir laiptais įrangos priežiūrai gamybos ceche.</p>[/vc_column_text][/vc_column_inner][vc_column_inner width="1/4" el_class="atp-projektas"][vc_raw_html]PGltZyBzcmM9Imh0dHBzOi8vYXRwc3ByZW5kaW1haS5sdC93cC1jb250ZW50L3RoZW1lcy9zYWxpZW50LWF0cC9hc3NldHMvaW1nL2ZvdG8tNzg0OTc0My5qcGciIGFsdD0iU3V2aXJpbnRvamFpIGNlY2hlIHByaWUgcGxpZW5pbmlvIHLEl21vIiBsb2FkaW5nPSJsYXp5Ij4=[/vc_raw_html][vc_column_text el_class="atp-vidus"]<p class="atp-mono">Pramonei · Vilnius · dažyta</p>
+<h3>Konvejerio rėmas gamybos cechui</h3>
+<p>Juostinio transporterio rėmas įrangos montavimui, pagamintas pagal užsakovo brėžinius.</p>[/vc_column_text][/vc_column_inner][vc_column_inner width="1/4" el_class="atp-projektas"][vc_raw_html]PGltZyBzcmM9Imh0dHBzOi8vYXRwc3ByZW5kaW1haS5sdC93cC1jb250ZW50L3RoZW1lcy9zYWxpZW50LWF0cC9hc3NldHMvaW1nL2ZvdG8tMTI3MDkxNDEuanBnIiBhbHQ9IkFybWF0xatyb3Mga2Fya2FzYXMga29sb25haSBzdGF0eWJ2aWV0xJdqZSIgbG9hZGluZz0ibGF6eSI+[/vc_raw_html][vc_column_text el_class="atp-vidus"]<p class="atp-mono">Statyboms · Vilniaus r. · armatūra</p>
+<h3>Armatūros karkasai pamatams</h3>
+<p>Rostverko ir kolonų karkasai, sukomplektuoti pagal pamatų brėžinį ir pristatyti į objektą.</p>[/vc_column_text][/vc_column_inner][/vc_row_inner][vc_column_text]<p class="atp-zyma">Projektai pavyzdiniai. Tikrų objektų nuotraukas, pavadinimus ir vietas pateikia užsakovas.</p>[/vc_column_text][/vc_column][/vc_row]
+[vc_row full_width="stretch_row"][vc_column el_class="atp-sekcija atp-tamsu atp-teiginys"][vc_raw_html]PGRpdiBjbGFzcz0iYXRwLWxpbmlqYSIgYXJpYS1oaWRkZW49InRydWUiPjwvZGl2Pg==[/vc_raw_html][vc_column_text]<h2>Užsakymus įvykdom laiku.</h2>
+<p class="atp-lead">Mūsų gaminiai atitinka Jūsų lūkesčius, o užsakymus įvykdom laiku. Terminą sutariame prieš gamybą ir jo laikomės.</p>
+<p><a class="atp-nuoroda" href="#uzsakymas">Užklausti pasiūlymo</a></p>[/vc_column_text][/vc_column][/vc_row]
+[vc_row full_width="stretch_row"][vc_column el_class="atp-sekcija atp-sviesi"][vc_column_text el_class="atp-virs"]<p class="atp-eyebrow">Apie mus</p>
+<h2 id="apie">Kodėl ATP Sprendimai</h2>
+<p class="atp-lead">Nestandartiniai metalo gaminiai iš juodo ir nerūdijančio plieno.</p>[/vc_column_text][vc_row_inner][vc_column_inner width="1/3" el_class="atp-privalumas"][vc_column_text]<p class="atp-mono">01</p>
+<h3>Pagal brėžinį arba pagal vietą</h3>
+<p>Gaminame pagal Jūsų dokumentaciją arba išmatuojame objekte* ir parengiame gamybos brėžinius patvirtinimui.</p>[/vc_column_text][/vc_column_inner][vc_column_inner width="1/3" el_class="atp-privalumas"][vc_column_text]<p class="atp-mono">02</p>
+<h3>Gamyba ir montavimas iš vienų rankų</h3>
+<p>Mūsų komanda sukaupusi ilgametę patirtį gamybos procesuose ir montuojant gaminius. Ta pati komanda gamina ir montuoja, be tarpininkų.</p>[/vc_column_text][/vc_column_inner][vc_column_inner width="1/3" el_class="atp-privalumas"][vc_column_text]<p class="atp-mono">03</p>
+<h3>Ilgalaikiai santykiai</h3>
+<p>Mes siekiame sukurti ilgalaikius santykius su savo klientais, gamindami aukščiausios kokybės produktus ir pranokdami jų lūkesčius.</p>[/vc_column_text][/vc_column_inner][/vc_row_inner][/vc_column][/vc_row]
+[vc_row full_width="stretch_row"][vc_column el_class="atp-sekcija atp-sviesi"][vc_column_text el_class="atp-virs"]<p class="atp-eyebrow">Gamyba</p>
+<h2 id="gamyba">Cechas Vilniuje, Titnago g. 19</h2>
+<p class="atp-lead">Kiekvienas užsakymas prasideda nuo brėžinio arba matavimų objekte ir baigiasi sumontuotu gaminiu.</p>[/vc_column_text][vc_row_inner][vc_column_inner width="2/3" el_class="atp-gamyba-tekstas"][vc_column_text]<p>ATP Sprendimai — metalo gamybos įmonė Vilniuje, Titnago g. 19. Gaminame nestandartinius metalo gaminius iš juodo ir nerūdijančio plieno: konstrukcijas pramonei pagal užsakovų brėžinius, mažosios architektūros elementus ir gaminius statyboms.</p>
+<p>Gamybą ir montavimą atliekame patys, todėl už matmenis, apdailą ir terminą atsakome vienoje vietoje. Mūsų komanda sukaupusi ilgametę patirtį gamybos procesuose ir montuojant gaminius.</p>
+<p>Mes siekiame sukurti ilgalaikius santykius su savo klientais, gamindami aukščiausios kokybės produktus ir pranokdami jų lūkesčius.</p>[/vc_column_text][vc_column_text el_class="atp-lapas"]<p class="atp-mono">Gamybos pajėgumai</p>
+<ul>
+<li><b>Pjovimas</b> Profiliai, lakštai ir armatūra — paruošimas pagal brėžinį.</li>
+<li><b>Lankstymas</b> Lakštų ir armatūros lankstiniai.</li>
+<li><b>Suvirinimas</b> Juodas ir nerūdijantis plienas.</li>
+<li><b>Apdaila</b> Dažymas milteliniu būdu, karštas cinkavimas, šlifavimas ir poliravimas. Dalis operacijų — su partneriais*.</li>
+<li><b>Montavimas</b> Sava montuotojų komanda ir transportas*.</li>
+<li><b>Cecho duomenys</b> Plotas — …* · Maksimalus gaminio ilgis — …* · Kėlimo įranga — …*</li>
+</ul>
+<p class="atp-stampas">ATP Sprendimai · Titnago g. 19, Vilnius · Duomenys su * — tikslina užsakovas</p>[/vc_column_text][/vc_column_inner][vc_column_inner width="1/3" el_class="atp-gamyba-foto"][vc_raw_html]PGltZyBzcmM9Imh0dHBzOi8vYXRwc3ByZW5kaW1haS5sdC93cC1jb250ZW50L3RoZW1lcy9zYWxpZW50LWF0cC9hc3NldHMvaW1nL2ZvdG8tMzYwMDM5NzIuanBnIiBhbHQ9IlBsaWVuaW7El3Mgc2lqb3MgbWF0YXZpbWFzIHNsYW5rbWHEjWl1IGNlY2hlIiBsb2FkaW5nPSJsYXp5Ij4=[/vc_raw_html][vc_raw_html]PGltZyBzcmM9Imh0dHBzOi8vYXRwc3ByZW5kaW1haS5sdC93cC1jb250ZW50L3RoZW1lcy9zYWxpZW50LWF0cC9hc3NldHMvaW1nL2ZvdG8tMzU5OTI2MDIuanBnIiBhbHQ9IlByYW1vbmluaW8gcGFzdGF0byBmYXNhZGFzIHN1IGNpbmt1b3RhaXMgbGFpcHRhaXMiIGxvYWRpbmc9ImxhenkiPg==[/vc_raw_html][/vc_column_inner][/vc_row_inner][/vc_column][/vc_row]
+[vc_row full_width="stretch_row"][vc_column el_class="atp-sekcija atp-l2"][vc_column_text el_class="atp-virs"]<p class="atp-eyebrow">Atsiliepimai</p>
+<h2 id="atsiliepimai">Ką sako klientai</h2>
+<p class="atp-lead">Pavyzdiniai atsiliepimai — pakeisti tikrais su klientų sutikimu.</p>[/vc_column_text][vc_row_inner][vc_column_inner width="1/3" el_class="atp-atsiliepimas"][vc_column_text]<blockquote>„Brėžinį išsiuntėme pirmadienį, pasiūlymą gavome kitą dieną, o konstrukcija buvo sumontuota sutartu terminu. Matmenys sutapo iki milimetro.“</blockquote>
+<p class="atp-kas">Tomas</p>
+<p class="atp-mono">Projektų vadovas · pavyzdinis atsiliepimas</p>[/vc_column_text][/vc_column_inner][vc_column_inner width="1/3" el_class="atp-atsiliepimas"][vc_column_text]<blockquote>„Turėklus išmatavo objekte ir pasiūlė nerūdijantį plieną vietoj dažyto. Sprendimas pasiteisino — priežiūros beveik nereikia.“</blockquote>
+<p class="atp-kas">Rūta</p>
+<p class="atp-mono">Statybos vadovė · pavyzdinis atsiliepimas</p>[/vc_column_text][/vc_column_inner][vc_column_inner width="1/3" el_class="atp-atsiliepimas"][vc_column_text]<blockquote>„Armatūros karkasus pristatė tiesiai į objektą, sukomplektuotus pagal pamatų brėžinį. Betonavome be prastovų.“</blockquote>
+<p class="atp-kas">Mindaugas</p>
+<p class="atp-mono">Objekto vadovas · pavyzdinis atsiliepimas</p>[/vc_column_text][/vc_column_inner][/vc_row_inner][/vc_column][/vc_row]
+[vc_row full_width="stretch_row"][vc_column el_class="atp-sekcija atp-sviesi atp-duk"][vc_column_text el_class="atp-virs"]<p class="atp-eyebrow">Dažni klausimai</p>
+<h2 id="duk">Ką klausia klientai</h2>
+<p class="atp-lead">Neradote atsakymo? Parašykite mums — atsakysime nurodytu el. paštu arba telefonu.</p>[/vc_column_text][vc_toggle title="Ar gaminate pagal mūsų brėžinius, ar tik pagal savo?" style="default" color="default" size="md" open="true"]Pagal Jūsų. Jei brėžinio nėra, išmatuosime objekte* ir parengsime gamybos brėžinį patvirtinimui.[/vc_toggle][vc_toggle title="Iš kokio plieno gaminate konstrukcijas įrangai?" style="default" color="default" size="md" open="false"]Dažniausiai iš juodo plieno su milteline danga arba cinkavimu. Maisto ar chemijos pramonei — iš nerūdijančio plieno AISI 304 arba AISI 316.[/vc_toggle][vc_toggle title="Ar montuojate patys?" style="default" color="default" size="md" open="false"]Taip, mūsų komanda gamina ir montuoja. Jei turite savo montuotojus, perduosime gaminį su montavimo schema.[/vc_toggle][vc_toggle title="Nerūdijantis ar dažytas plienas turėklams?" style="default" color="default" size="md" open="false"]Lauke ir viešose erdvėse patariame nerūdijantį — priežiūros beveik nereikia. Dažytas juodas plienas pigesnis ir tinka, kai svarbi spalva.[/vc_toggle][vc_toggle title="Kaip parenkama tvoros ar vartų spalva?" style="default" color="default" size="md" open="false"]Pagal RAL katalogą. Dažome milteliniu būdu ant cinkuoto paviršiaus, todėl danga laikosi ilgai.[/vc_toggle][vc_toggle title="Ar pristatote armatūros karkasus dalimis pagal statybos etapus?" style="default" color="default" size="md" open="false"]Taip. Pristatome į objektą Vilniuje ir apylinkėse*, o grafiką suderiname pagal pamatų, kolonų ir perdangų betonavimo eiliškumą.[/vc_toggle][vc_toggle title="Kokius failus priimate?" style="default" color="default" size="md" open="false"]PDF, DWG, DXF brėžinius ir XLSX armatūros specifikacijas. Jei turite tik popierinį brėžinį — atsiųskite nuotrauką.[/vc_toggle][/vc_column][/vc_row]
+[vc_row full_width="stretch_row"][vc_column el_class="atp-sekcija atp-l2 atp-uzsakymas"][vc_row_inner][vc_column_inner width="1/2" el_class="atp-uzsakymas-tekstas"][vc_column_text el_class="atp-kontaktai"]<p class="atp-eyebrow">Užsakymas</p>
+<h2 id="uzsakymas">Turite brėžinį ar idėją?</h2>
+<p class="atp-lead">Atsiųskite brėžinį, eskizą ar objekto nuotrauką — įvertinsime ir pateiksime pasiūlymą. Dėl išsamesnės informacijos prašome kreiptis į mus.</p>
+<p><a class="didelis" href="tel:+37060808909">+370 608 08909</a><br><a class="atp-nuoroda" href="mailto:info@atpsprendimai.lt">info@atpsprendimai.lt</a></p>
+<p class="atp-mazas">Titnago g. 19, Vilnius<br>Darbo laikas: I–V 8:00–17:00*</p>
+<p class="atp-zyma">Priimame PDF, DWG, DXF brėžinius ir XLSX armatūros specifikacijas. Jei turite tik popierinį brėžinį — atsiųskite nuotrauką.</p>[/vc_column_text][/vc_column_inner][vc_column_inner width="1/2" el_class="atp-uzsakymas-forma"][vc_column_text][atp_forma][/vc_column_text][/vc_column_inner][/vc_row_inner][/vc_column][/vc_row]
+[vc_row full_width="stretch_row"][vc_column el_class="atp-sekcija atp-sviesi atp-kontaktai"][vc_column_text el_class="atp-virs"]<p class="atp-eyebrow">Kontaktai</p>
+<h2 id="kontaktai">Mus rasite</h2>
+<p class="atp-lead">Gaminius galite atsiimti mūsų ceche Titnago g. 19, Vilniuje — suderinus laiką telefonu.</p>[/vc_column_text][vc_row_inner][vc_column_inner width="1/3" el_class="atp-kontaktai-blokas"][vc_column_text]<h3>Susisiekite</h3>
+<p><a class="didelis" href="tel:+37060808909">+370 608 08909</a><br><a class="didelis" href="mailto:info@atpsprendimai.lt">info@atpsprendimai.lt</a></p>
+<p class="atp-mazas">Titnago g. 19, Vilnius<br>Darbo laikas: I–V 8:00–17:00*</p>[/vc_column_text][/vc_column_inner][vc_column_inner width="1/3" el_class="atp-kontaktai-blokas"][vc_column_text]<h3>Rekvizitai</h3>
+<table>
+<tbody>
+<tr><th>Pavadinimas</th><td>ATP Sprendimai</td></tr>
+<tr><th>Įmonės kodas</th><td>—*</td></tr>
+<tr><th>PVM mokėtojo kodas</th><td>—*</td></tr>
+<tr><th>Adresas</th><td>Titnago g. 19, Vilnius</td></tr>
+<tr><th>Bankas</th><td>—*</td></tr>
+<tr><th>Sąskaitos nr.</th><td>—*</td></tr>
+<tr><th>Tel.</th><td><a href="tel:+37060808909">+370 608 08909</a></td></tr>
+<tr><th>El. paštas</th><td><a href="mailto:info@atpsprendimai.lt">info@atpsprendimai.lt</a></td></tr>
+</tbody>
+</table>
+<p class="atp-zyma">Laukai su * — užpildo užsakovas.</p>[/vc_column_text][/vc_column_inner][vc_column_inner width="1/3" el_class="atp-kontaktai-blokas"][vc_raw_html]PHN2ZyB2aWV3Qm94PSIwIDAgMzIwIDIyMCIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsPSJTY2hlbWE6IEFUUCBTcHJlbmRpbWFpLCBUaXRuYWdvIGcuIDE5LCBWaWxuaXVzIiBzdHlsZT0id2lkdGg6MTAwJTtoZWlnaHQ6YXV0byI+CjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIzMjAiIGhlaWdodD0iMjIwIiBmaWxsPSIjRjRGNUY3Ij48L3JlY3Q+CjxnIHN0cm9rZT0iI0M3Q0REMyIgc3Ryb2tlLXdpZHRoPSIxIj48cGF0aCBkPSJNMCA2MCBIMzIwIE0wIDEyMCBIMzIwIE0wIDE4MCBIMzIwIE03MCAwIFYyMjAgTTE2MCAwIFYyMjAgTTI1MCAwIFYyMjAiPjwvcGF0aD48L2c+CjxwYXRoIGQ9Ik0wIDEyMCBMMzIwIDYwIiBzdHJva2U9IiM2Rjc5ODAiIHN0cm9rZS13aWR0aD0iNiIgZmlsbD0ibm9uZSI+PC9wYXRoPgo8ZyBzdHJva2U9IiNCRjNFMTQiIHN0cm9rZS13aWR0aD0iMiI+PHBhdGggZD0iTTE2MCA3MCBWMTEwIE0xNDAgOTAgSDE4MCI+PC9wYXRoPjxjaXJjbGUgY3g9IjE2MCIgY3k9IjkwIiByPSIxNCIgZmlsbD0ibm9uZSI+PC9jaXJjbGU+PC9nPgo8dGV4dCB4PSIxNjAiIHk9IjE0MCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9IkdlaXN0IE1vbm8sIG1vbm9zcGFjZSIgZm9udC1zaXplPSIxMSIgZmlsbD0iIzExMTQxOCI+VElUTkFHTyBHLiAxOTwvdGV4dD4KPHRleHQgeD0iMTYwIiB5PSIxNTgiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJHZWlzdCBNb25vLCBtb25vc3BhY2UiIGZvbnQtc2l6ZT0iMTEiIGZpbGw9IiM1RjY5NzEiPlZJTE5JVVM8L3RleHQ+Cjwvc3ZnPg==[/vc_raw_html][vc_column_text]<p class="atp-zyma">Schema orientacinė. Tikrą žemėlapį galima įdėti vietoj šio paveikslėlio.</p>[/vc_column_text][/vc_column_inner][/vc_row_inner][/vc_column][/vc_row]
