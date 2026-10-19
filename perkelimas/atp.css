@@ -456,13 +456,21 @@ body.atp .atp-sekcija .inner_row .wpb_content_element{margin-bottom:0}
 body.atp .atp-sekcija .vc_figure,body.atp .atp-sekcija .vc_single_image-wrapper{display:block;width:100%}
 body.atp .atp-sekcija .vc_single_image-wrapper img{width:100%;height:auto;display:block}
 
-/* DUK su konstruktoriaus elementu „Toggle“ */
-body.atp .atp-duk .vc_toggle{margin:0;padding:0;border-bottom:1px solid var(--siule)}
-body.atp .atp-duk .vc_toggle:first-of-type{border-top:1px solid var(--siule)}
-body.atp .atp-duk .vc_toggle_title{padding:20px 0;cursor:pointer;display:flex;align-items:center;gap:14px}
-body.atp .atp-duk .vc_toggle_title h4{margin:0;font-size:clamp(1rem,.95rem + .35vw,1.25rem);font-weight:600;color:var(--t1);line-height:1.3}
-body.atp .atp-duk .vc_toggle_content{padding:0 0 22px;margin:0;color:var(--t2);max-width:78ch}
-body.atp .atp-duk .vc_toggle_content p{margin:0;color:var(--t2)}
+/* DUK — Salient „Toggles“ elementas */
+body.atp .atp-duk .toggles{margin:0}
+body.atp .atp-duk .toggle{margin:0;padding:0;border-bottom:1px solid var(--siule);background:none}
+body.atp .atp-duk .toggle:first-child{border-top:1px solid var(--siule)}
+body.atp .atp-duk .toggle .toggle-title,body.atp .atp-duk .toggle h3{margin:0;font-size:clamp(1rem,.95rem + .35vw,1.25rem);line-height:1.3}
+body.atp .atp-duk .toggle .toggle-heading{display:flex;gap:14px;align-items:baseline;padding:20px 0;color:var(--t1);text-decoration:none;font-weight:600;background:none;border:0}
+body.atp .atp-duk .toggle .toggle-heading i{color:var(--zarija);font-style:normal;font-size:.8em}
+body.atp .atp-duk .toggle .inner-toggle-wrap{padding:0 0 22px;color:var(--t2);max-width:78ch}
+body.atp .atp-duk .toggle .inner-toggle-wrap p{margin:0;color:var(--t2)}
+
+/* Nuotraukos — Salient elementas „Image“ */
+body.atp .atp-sekcija .img-with-animation-wrap,body.atp .atp-sekcija .img-with-animation{width:100%}
+body.atp .atp-sekcija img.img-with-animation{display:block;width:100%;height:auto}
+body.atp .atp-atsiliepimas .atp-veidas{max-width:56px;margin-bottom:14px}
+body.atp .atp-atsiliepimas .atp-veidas img{width:56px;height:56px;border-radius:50%;object-fit:cover}
 
 /* Smulkmenos */
 body.atp .atp-sekcija .atp-mazas{font-size:.9375rem;color:var(--t2)}
