@@ -67,6 +67,18 @@ add_filter('body_class', function ($klases) {
 
 require_once ATP_DIR . '/inc/forma.php';
 
+/** Užsakymo forma konstruktoriaus puslapiuose: trumpinys [atp_forma]. */
+add_shortcode('atp_forma', function () {
+    ob_start();
+    atp_forma();
+    return ob_get_clean();
+});
+
+/** Puslapiai redaguojami WPBakery konstruktoriumi, todėl blokų redaktorių puslapiams išjungiame. */
+add_filter('use_block_editor_for_post_type', function ($naudoti, $tipas) {
+    return $tipas === 'page' ? false : $naudoti;
+}, 10, 2);
+
 
 /* ─────────────────────────────────────────────────────────────
    ADMINISTRAVIMO IŠVAIZDA — Simplex v8
