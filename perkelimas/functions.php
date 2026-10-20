@@ -10,7 +10,11 @@ define('ATP_URI', get_stylesheet_directory_uri());
 define('ATP_DIR', get_stylesheet_directory());
 
 /* ─────────────────────────────────────────────────────────────
-   ĮMONĖS DUOMENYS — vienintelė vieta, kurią reikia redaguoti.
+   ĮMONĖS DUOMENYS — antraštė, footeris, užsakymo forma ir senasis
+   šablonas (template-pradzia.php). Pradžios puslapio tekstai,
+   telefonai, adresas ir rekvizitai keičiami konstruktoriuje
+   (turinį generuoja wp/konstruktorius/sukurti.py) — pasikeitus
+   duomenims, juos reikia pakeisti abiejose vietose.
    ───────────────────────────────────────────────────────────── */
 define('ATP_IMONE',        'ATP Sprendimai');
 define('ATP_ADRESAS',      'Titnago g. 19, Vilnius');
@@ -20,8 +24,8 @@ define('ATP_EL',           'info@atpsprendimai.lt');
 define('ATP_LAIKAS',       'I–V 8.00–17.00');
 
 /* Rekvizitai. Kol reikšmė tuščia, lentelėje rodoma „—*“. */
-define('ATP_IMONES_KODAS', '');
-define('ATP_PVM_KODAS',    '');
+define('ATP_IMONES_KODAS', '301673180');
+define('ATP_PVM_KODAS',    'LT100003948819');
 define('ATP_BANKAS',       '');
 define('ATP_SASKAITA',     '');
 
@@ -48,6 +52,14 @@ add_action('after_setup_theme', function () {
     add_theme_support('post-thumbnails');
     add_theme_support('html5', array('search-form', 'gallery', 'caption', 'style', 'script'));
     register_nav_menus(array('pagrindinis' => 'Pagrindinis meniu (ATP)'));
+});
+
+/** Vidiniuose puslapiuose WP meniu inkarai (#paslaugos) veda į pradžios puslapį. */
+add_filter('nav_menu_link_attributes', function ($atributai) {
+    if (!is_front_page() && isset($atributai['href']) && strpos($atributai['href'], '#') === 0) {
+        $atributai['href'] = home_url('/') . $atributai['href'];
+    }
+    return $atributai;
 });
 
 /** Brėžinių formatai medijos bibliotekai. */
@@ -78,6 +90,70 @@ add_shortcode('atp_forma', function () {
 add_filter('use_block_editor_for_post_type', function ($naudoti, $tipas) {
     return $tipas === 'page' ? false : $naudoti;
 }, 10, 2);
+
+/** SEO: meta aprašymas, „Open Graph“ ir organizacijos duomenys (kai nėra SEO įskiepio). */
+add_action('wp_head', function () {
+    if (defined('WPSEO_VERSION') || defined('RANK_MATH_VERSION') || defined('AIOSEO_VERSION')) return;
+    if (is_front_page()) {
+        $aprasymas = 'Metalo gamyba Vilniuje: konstrukcijos pramonei pagal brėžinius, tvoros ir turėklai, armatūros karkasai ir gaminiai statyboms. Gamyba ir montavimas.';
+    } elseif (is_singular() && has_excerpt()) {
+        $aprasymas = wp_strip_all_tags(get_the_excerpt());
+    } else {
+        $aprasymas = ATP_IMONE . ' — nestandartiniai metalo gaminiai iš juodo ir nerūdijančio plieno. ' . ATP_ADRESAS . '.';
+    }
+    $adresas = is_front_page() ? home_url('/') : get_permalink();
+    $vaizdas = ATP_URI . '/assets/img/poster-31806788.jpg';
+    echo '<meta name="description" content="' . esc_attr($aprasymas) . '">' . "\n";
+    echo '<meta property="og:type" content="website">' . "\n";
+    echo '<meta property="og:locale" content="lt_LT">' . "\n";
+    echo '<meta property="og:site_name" content="' . esc_attr(ATP_IMONE) . '">' . "\n";
+    echo '<meta property="og:title" content="' . esc_attr(wp_get_document_title()) . '">' . "\n";
+    echo '<meta property="og:description" content="' . esc_attr($aprasymas) . '">' . "\n";
+    echo '<meta property="og:url" content="' . esc_url($adresas) . '">' . "\n";
+    echo '<meta property="og:image" content="' . esc_url($vaizdas) . '">' . "\n";
+    echo '<meta name="twitter:card" content="summary_large_image">' . "\n";
+    if (is_front_page()) {
+        $org = array('@context' => 'https://schema.org', '@type' => 'LocalBusiness', 'name' => ATP_IMONE, 'url' => home_url('/'),
+            'telephone' => ATP_TEL_LINK, 'email' => ATP_EL, 'image' => $vaizdas,
+            'address' => array('@type' => 'PostalAddress', 'streetAddress' => 'Titnago g. 19', 'addressLocality' => 'Vilnius', 'addressCountry' => 'LT'));
+        echo '<script type="application/ld+json">' . wp_json_encode($org, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES) . '</script>' . "\n";
+        // Pradžios ekrano poster — pirmas matomas vaizdas
+        echo '<link rel="preload" as="image" href="' . esc_url($vaizdas) . '" fetchpriority="high">' . "\n";
+    }
+}, 2);
+
+/** Salient išjungia WP „loading=lazy“ (wp_lazy_loading_enabled → false), todėl telefone iš karto būtų
+    parsiunčiamos visos 18 pradžios puslapio nuotraukų (~4 MB). Konstruktoriaus nuotraukoms (Image with animation)
+    grąžiname naršyklės „lazy“, kaip demo. Salient image_loading="lazy-load" nenaudojame — jis prideda išryškėjimą. */
+add_filter('wp_content_img_tag', function ($img) {
+    if (false === strpos($img, ' loading=') && false !== strpos($img, 'img-with-animation')) {
+        $img = str_replace('<img ', '<img loading="lazy" ', $img);
+    }
+    return $img;
+});
+
+/** Pradžios puslapio turinio nuotraukos yra žemiau pirmo ekrano, todėl „fetchpriority=high“ joms nereikia. */
+add_filter('wp_get_loading_optimization_attributes', function ($atributai) {
+    if (is_front_page()) unset($atributai['fetchpriority']);
+    return $atributai;
+});
+
+/** Be išorinių užklausų: Salient Open Sans iš Google ir WP jaustukų skriptas (BDAR, greitis). */
+add_action('wp_enqueue_scripts', function () {
+    wp_dequeue_style('nectar_default_font_open_sans');
+    wp_deregister_style('nectar_default_font_open_sans');
+}, 10000);
+add_filter('wp_resource_hints', function ($nuorodos, $tipas) {
+    if ('dns-prefetch' === $tipas || 'preconnect' === $tipas) {
+        $nuorodos = array_filter($nuorodos, function ($n) {
+            $u = is_array($n) ? ($n['href'] ?? '') : $n;
+            return strpos($u, 'fonts.googleapis') === false && strpos($u, 'fonts.gstatic') === false;
+        });
+    }
+    return $nuorodos;
+}, 10, 2);
+remove_action('wp_head', 'print_emoji_detection_script', 7);
+remove_action('wp_print_styles', 'print_emoji_styles');
 
 
 /* ─────────────────────────────────────────────────────────────
